@@ -1,0 +1,8 @@
+# Optional source retrieval; not needed for frozen publication reproduction.
+cdsapi
+requests
+xarray
+netCDF4
+pandas
+pyarrow
+holidays==0.108

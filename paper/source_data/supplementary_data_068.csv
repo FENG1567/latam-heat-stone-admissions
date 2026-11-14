@@ -1,0 +1,8 @@
+country,tag,RR,lo,hi,k,I2,concordance,method,covariance,scenario,analysis_scope,endpoint,units_total,units_fit,units_failed,status
+brazil,br_adult_matched,1.11304620122816,1.09501719869971,1.13137204378118,208,23.5346300114826,0.826923076923077,DL,hac14,processing sources 2014–2021; admissions 2014–2020,adult_unstandardized_matched_standardization_success_units,broad_N20_N23_vs_K80,208,208,0,ok
+mexico,mx_adult_matched,1.06459746671287,0.987410837343039,1.14781783151294,16,47.8599163017461,0.6875,DL,hac14,Mexico 2015–2022 primary cohort,adult_unstandardized_matched_standardization_success_units,broad_N20_N23_vs_K80,16,16,0,ok
+brazil,br_standardized_matched,1.09896606013406,1.07943685245438,1.11884859089302,208,25.9489530212471,0.778846153846154,DL,hac14,processing sources 2014–2021; admissions 2014–2020,observed_case_mix_standardized,broad_N20_N23_vs_K80,208,208,0,ok
+mexico,mx_standardized_matched,1.05521607199788,0.964101112409154,1.15494209504666,16,55.8349125391923,0.625,DL,hac14,Mexico 2015–2022 primary cohort,observed_case_mix_standardized,broad_N20_N23_vs_K80,16,16,0,ok
+mexico,mx_strict_N20,1.09140957507353,1.03601907233483,1.14976151730265,32,33.7869993812368,0.71875,DL,hac14,Mexico 2015–2022 primary cohort,all_age_complete_source_same_primary_RRR_units,strict_N20_only_vs_K80,32,32,0,ok
+mexico,mx_confirmed_N20_N21,1.07817132210861,1.02769133218077,1.1311308789096,32,28.9520984219407,0.59375,DL,hac14,Mexico 2015–2022 primary cohort,all_age_complete_source_same_primary_RRR_units,confirmed_N20_N21_vs_K80,32,32,0,ok
+mexico,mx_N23,1.15043119881702,1.03406922174092,1.27988718297155,31,0,0.645161290322581,DL,hac14,Mexico 2015–2022 primary cohort,all_age_complete_source_same_primary_RRR_units,composition_N23_vs_K80,32,31,1,ok

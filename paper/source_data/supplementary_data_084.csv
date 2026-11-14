@@ -1,0 +1,2 @@
+n_units,n_not_psd,n_nonpositive_component_variances,minimum_projected_eigenvalue,maximum_absolute_projected_eigenvalue,n_curve_cache_value_mismatches
+450,0,0,-0.0000000000000000796700396643878,0.810247876100311,0

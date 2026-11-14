@@ -1,0 +1,7 @@
+sensitivity,outcome,candidate_events_subtracted,original_events,bounded_events,dates_affected
+primary_2015_2022_nonID_repeat_upper_bound,y_K80,466,318331,317865,427
+primary_2015_2022_nonID_repeat_upper_bound,y_K81,197,230020,229823,193
+primary_2015_2022_nonID_repeat_upper_bound,y_urinary,75,70911,70836,74
+extended_2023_nonID_repeat_upper_bound,y_K80,5,41377,41372,5
+extended_2023_nonID_repeat_upper_bound,y_K81,8,32710,32702,8
+extended_2023_nonID_repeat_upper_bound,y_urinary,3,10271,10268,3

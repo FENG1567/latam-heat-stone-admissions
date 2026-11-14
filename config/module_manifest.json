@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "description": "Commands for the preserved aggregate analysis scripts. The wrapper copies templates to an isolated workspace and delegates to original CLIs; it does not alter statistical code.",
+  "template_root": "analysis/templates",
+  "template_groups": [
+    {
+      "source": "analysis/templates/scripts",
+      "target": "scripts"
+    },
+    {
+      "source": "analysis/templates/revision_20261113/scripts",
+      "target": "revision_20261113/scripts"
+    }
+  ],
+  "historical_root_replacements": [
+    {
+      "from": "/data/admin/fengshuo/latam_stone_repair_20261112/revision_20261113",
+      "to": "{workspace}/revision_20261113"
+    },
+    {
+      "from": "/data/admin/fengshuo/latam_stone_repair_20261112",
+      "to": "{workspace}"
+    },
+    {
+      "from": "F:\\\u5206\u6790\u4e13\u7528\\latam_stone_revision_20261113\\reproducibility",
+      "to": "{workspace}"
+    },
+    {
+      "from": "F:/\u5206\u6790\u4e13\u7528/latam_stone_revision_20261113/reproducibility",
+      "to": "{workspace}"
+    },
+    {
+      "from": "F:\\\u5206\u6790\u4e13\u7528\\latam_stone_repair_20261112",
+      "to": "{workspace}"
+    },
+    {
+      "from": "/data/admin/fengshuo/latam_stone_20261109",
+      "to": "{workspace}"
+    }
+  ],
+  "modules": {
+    "core_primary_legacy_mx": {
+      "label": "Prespecified core primary model using the supplied legacy-MX calendar",
+      "status": "runnable",
+      "script": "analysis/templates/scripts/run_core.R",
+      "args": [
+        "{workspace}/scripts/run_core.R",
+        "--stage",
+        "primary",
+        "--workers",
+        "{workers}",
+        "--brazil",
+        "{workspace}/data/br_calendar.csv.gz",
+        "--mexico",
+        "{workspace}/data/mx_calendar.csv.gz",
+        "--outdir",
+        "{workspace}/results"
+      ],
+      "requires_inputs": [
+        "data/br_calendar.csv.gz",
+        "data/mx_calendar.csv.gz",
+        "admin/analysis_plan.json"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "metafor",
+        "splines"
+      ]
+    },
+    "final_mexico_complete_source_models": {
+      "label": "Reconstruct/audit final Mexico complete-source calendar from supplied aggregates, then fit models",
+      "status": "runnable",
+      "script": "analysis/templates/scripts/run_mexico_updated.R",
+      "args": [
+        "{workspace}/scripts/run_mexico_updated.R",
+        "--root={workspace}",
+        "--stage=models",
+        "--workers={workers}"
+      ],
+      "requires_inputs": [
+        "data/mx_calendar.csv.gz",
+        "data/mx_complete_source_state_day_2015_2022.csv",
+        "data/mx_complete_source_2019_state_day.csv",
+        "data/mx_clinical_state_day.csv",
+        "data/mx_weather_2023.csv",
+        "admin/cohort_amendment_2019.json"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "metafor",
+        "splines"
+      ],
+      "note": "Original runner calls read_inputs in every stage and rewrites working-calendar gzip files. Preserved repository input parts are immutable; use a fresh workspace to restore after model execution."
+    },
+    "clinical_validated_complete": {
+      "label": "Validated staged clinical endpoint, interaction, and standardization analysis (complete Mexico cohort)",
+      "status": "runnable",
+      "script": "analysis/templates/scripts/run_clinical_validated.R",
+      "args": [
+        "{workspace}/scripts/run_clinical_validated.R",
+        "--root",
+        "{workspace}",
+        "--stage",
+        "all",
+        "--country",
+        "both",
+        "--mx-cohort",
+        "complete",
+        "--include-latebilling",
+        "true"
+      ],
+      "requires_inputs": [
+        "admin/analysis_plan.json",
+        "data/br_calendar.csv.gz",
+        "data/mx_updated_calendar.csv.gz",
+        "results/brazil_clinical_aggregate_all_admission_years_by_source_year.csv.gz",
+        "data/mx_complete_source_long_2015_2022.csv.gz"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "metafor",
+        "splines"
+      ]
+    },
+    "moisture_validation": {
+      "label": "Moisture model and synthetic-fixture validation only; does not fit study effects",
+      "status": "runnable",
+      "script": "analysis/templates/scripts/run_moisture_sensitivity.R",
+      "args": [
+        "{workspace}/scripts/run_moisture_sensitivity.R",
+        "--root={workspace}",
+        "--stage=validate",
+        "--workers={workers}"
+      ],
+      "requires_inputs": [
+        "admin/analysis_plan.json",
+        "admin/moisture_sensitivity_plan_20261113.json"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "metafor",
+        "splines"
+      ]
+    },
+    "moisture_effect_fit": {
+      "label": "Moisture effect fit after model-lock validation and source-QA approval",
+      "status": "manual",
+      "depends_on": [
+        "moisture_validation",
+        "core_primary_legacy_mx",
+        "final_mexico_complete_source_models"
+      ],
+      "manual_reason": "Effect fitting additionally requires a completed source-QA JSON whose SHA-256 entries match both moisture calendars, plus all primary fit outputs. Supply and review that source-QA artifact before using the original runner's --stage=fit --source-qa PATH CLI.",
+      "script": "analysis/templates/scripts/run_moisture_sensitivity_fresh.R",
+      "args": [
+        "{workspace}/scripts/run_moisture_sensitivity_fresh.R",
+        "--root={workspace}",
+        "--stage=fit",
+        "--workers={workers}",
+        "--source-qa={workspace}/results/moisture_sensitivity/qa/source_qa.json"
+      ],
+      "requires_inputs": [
+        "data/br_moisture_calendar.csv.gz",
+        "data/mx_moisture_calendar_2015_2022.csv.gz"
+      ],
+      "requires_outputs": [
+        "results/moisture_sensitivity/qa/source_qa.json",
+        "results/moisture_sensitivity/qa/model_lock_manifest.json",
+        "results/core/primary_threeoutcome_E3_separate_BR_per_unit.csv",
+        "results/mx_updated/primary_complete_source_2015_2022_MX_per_unit.csv"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "metafor",
+        "splines"
+      ]
+    },
+    "dlnm_core": {
+      "label": "Secondary DLNM timing sensitivity against the core primary fit manifest",
+      "status": "runnable",
+      "depends_on": [
+        "core_primary_legacy_mx"
+      ],
+      "script": "analysis/templates/scripts/run_dlnm.R",
+      "args": [
+        "{workspace}/scripts/run_dlnm.R",
+        "--country=all",
+        "--workers={workers}",
+        "--brazil={workspace}/data/br_calendar.csv.gz",
+        "--mexico={workspace}/data/mx_calendar.csv.gz",
+        "--manifest={workspace}/results/fits/primary_cache_manifest.csv",
+        "--outdir={workspace}/results/dlnm"
+      ],
+      "requires_inputs": [
+        "data/br_calendar.csv.gz",
+        "data/mx_calendar.csv.gz"
+      ],
+      "requires_outputs": [
+        "results/fits/primary_cache_manifest.csv"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "metafor",
+        "splines"
+      ]
+    },
+    "dlnm_final_mexico": {
+      "label": "Secondary DLNM timing sensitivity against final complete-source Mexico fits",
+      "status": "runnable",
+      "depends_on": [],
+      "script": "analysis/templates/scripts/run_dlnm.R",
+      "args": [
+        "{workspace}/scripts/run_dlnm.R",
+        "--country=MX",
+        "--workers={workers}",
+        "--mexico={workspace}/data/mx_updated_calendar.csv.gz",
+        "--manifest={workspace}/results/dlnm_mx_complete/no_external_reference_manifest.csv",
+        "--outdir={workspace}/results/dlnm_mx_complete"
+      ],
+      "requires_inputs": [
+        "data/mx_updated_calendar.csv.gz"
+      ],
+      "requires_outputs": [],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "metafor",
+        "splines"
+      ],
+      "note": "The intentionally absent no_external_reference_manifest path disables optional external-reference validation; the original accepted runner did not require this file."
+    },
+    "downstream_main_core": {
+      "label": "Downstream pooled main-effect estimates from core full-covariance caches",
+      "status": "runnable",
+      "depends_on": [
+        "core_primary_legacy_mx"
+      ],
+      "script": "analysis/templates/scripts/run_curves_burden.R",
+      "args": [
+        "{workspace}/scripts/run_curves_burden.R",
+        "main",
+        "all"
+      ],
+      "requires_outputs": [
+        "results/fits/primary_cache_manifest.csv"
+      ],
+      "r_packages": [
+        "metafor",
+        "splines"
+      ]
+    },
+    "curves_burden_core": {
+      "label": "Curves and standardized burden from core full-covariance caches",
+      "status": "runnable",
+      "depends_on": [
+        "core_primary_legacy_mx"
+      ],
+      "script": "analysis/templates/scripts/run_curves_burden.R",
+      "args": [
+        "{workspace}/scripts/run_curves_burden.R",
+        "curves_burden",
+        "all"
+      ],
+      "requires_outputs": [
+        "results/fits/primary_cache_manifest.csv"
+      ],
+      "r_packages": [
+        "metafor",
+        "splines"
+      ]
+    },
+    "synchronous_meta_core": {
+      "label": "Calendar-synchronous uncertainty sensitivity for core fits",
+      "status": "runnable",
+      "depends_on": [
+        "core_primary_legacy_mx"
+      ],
+      "script": "analysis/templates/scripts/run_synchronous_meta.R",
+      "args": [
+        "{workspace}/scripts/run_synchronous_meta.R",
+        "--manifest",
+        "{workspace}/results/fits/primary_cache_manifest.csv",
+        "--country",
+        "both",
+        "--outdir",
+        "{workspace}/results/synchronous_meta"
+      ],
+      "requires_outputs": [
+        "results/fits/primary_cache_manifest.csv"
+      ],
+      "r_packages": [
+        "metafor"
+      ]
+    },
+    "synchronous_meta_final_mexico": {
+      "label": "Calendar-synchronous uncertainty sensitivity for final complete-source Mexico fits",
+      "status": "runnable",
+      "depends_on": [
+        "final_mexico_complete_source_models"
+      ],
+      "script": "analysis/templates/scripts/run_synchronous_meta.R",
+      "args": [
+        "{workspace}/scripts/run_synchronous_meta.R",
+        "--manifest",
+        "{workspace}/results/mx_updated/fits/fit_cache_manifest.csv",
+        "--country",
+        "MX",
+        "--outdir",
+        "{workspace}/results/synchronous_meta/mx_updated_primary"
+      ],
+      "requires_outputs": [
+        "results/mx_updated/fits/fit_cache_manifest.csv"
+      ],
+      "r_packages": [
+        "metafor"
+      ]
+    },
+    "temporal_revision_verify": {
+      "label": "Verify the revised temporal baseline without fitting models",
+      "status": "manual",
+      "script": "analysis/templates/revision_20261113/scripts/temporal/run_temporal_m04.R",
+      "workspace_script": "revision_20261113/scripts/temporal/run_temporal_m04.R",
+      "args": [
+        "{workspace}/revision_20261113/scripts/temporal/run_temporal_m04.R",
+        "--stage",
+        "verify",
+        "--base-root",
+        "{workspace}",
+        "--temporal-root",
+        "{workspace}/revision_20261113",
+        "--workers",
+        "{workers}"
+      ],
+      "requires_inputs": [
+        "revision_20261113/results/temporal/inputs/national_holidays.csv",
+        "revision_20261113/results/temporal/inputs/national_holidays_manifest.json"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "splines"
+      ],
+      "manual_reason": "The preserved temporal verifier consumes baseline fit outputs and checksum-bound historical verification configuration. Recreate those verification artifacts for the new workspace before production; a past log is not treated as input evidence."
+    },
+    "temporal_revision_production": {
+      "label": "Revised temporal model stages",
+      "status": "manual",
+      "depends_on": [
+        "temporal_revision_verify"
+      ],
+      "manual_reason": "Production stages require the original --production-authorized flag and a passed verification manifest tied to the current temporal engine; retain that explicit authorization gate and run the preserved CLI only after review.",
+      "script": "analysis/templates/revision_20261113/scripts/temporal/run_temporal_m04.R",
+      "workspace_script": "revision_20261113/scripts/temporal/run_temporal_m04.R",
+      "args": [
+        "{workspace}/revision_20261113/scripts/temporal/run_temporal_m04.R",
+        "--stage",
+        "all",
+        "--base-root",
+        "{workspace}",
+        "--temporal-root",
+        "{workspace}/revision_20261113",
+        "--workers",
+        "{workers}",
+        "--production-authorized"
+      ],
+      "requires_outputs": [
+        "revision_20261113/results/temporal/verification_manifest.json"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "splines"
+      ]
+    },
+    "marginals_curves": {
+      "label": "Marginals and direct contrast summaries from existing fit caches",
+      "status": "runnable",
+      "depends_on": [
+        "core_primary_legacy_mx",
+        "final_mexico_complete_source_models"
+      ],
+      "script": "analysis/templates/revision_20261113/scripts/marginals_curves/extract_joint_marginals.R",
+      "workspace_script": "revision_20261113/scripts/marginals_curves/extract_joint_marginals.R",
+      "args": [
+        "{workspace}/revision_20261113/scripts/marginals_curves/extract_joint_marginals.R",
+        "{workspace}",
+        "{workspace}/revision_20261113/results/marginals_curves"
+      ],
+      "requires_outputs": [
+        "results/fits/primary_cache_manifest.csv",
+        "results/mx_updated/fits/fit_cache_manifest.csv"
+      ],
+      "r_packages": [
+        "metafor",
+        "splines"
+      ]
+    },
+    "adult_clinical_bridge": {
+      "label": "Adult clinical case-mix bridge and M07 replication handoff",
+      "status": "manual",
+      "depends_on": [
+        "clinical_validated_complete"
+      ],
+      "manual_reason": "The handoff script consumes separately produced `results/clinical_full_BR` and `results/clinical_full_MX_complete` trees. Their generation/output compatibility is not represented as a single verified command here; inspect those artifacts and use the preserved CLI after both are present.",
+      "script": "analysis/templates/revision_20261113/scripts/clinical_bridge/clinical_bridge.R",
+      "workspace_script": "revision_20261113/scripts/clinical_bridge/clinical_bridge.R",
+      "args": [
+        "{workspace}/revision_20261113/scripts/clinical_bridge/clinical_bridge.R",
+        "--root",
+        "{workspace}",
+        "--country",
+        "both",
+        "--mx-cohort",
+        "complete",
+        "--stage",
+        "all",
+        "--outdir",
+        "{workspace}/revision_20261113/results/clinical_bridge"
+      ],
+      "requires_outputs": [
+        "results/clinical_full_BR/clinical_brazil_case_mix_standardized_per_unit.csv",
+        "results/clinical_full_MX_complete/clinical_mexico_case_mix_standardized_per_unit.csv"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "metafor",
+        "splines"
+      ]
+    },
+    "mexico_2023_followup": {
+      "label": "Bounded Mexico 2023 follow-up and source-row sensitivity",
+      "status": "runnable",
+      "depends_on": [
+        "final_mexico_complete_source_models"
+      ],
+      "script": "analysis/templates/revision_20261113/scripts/mexico_followup/refit_mx2023_followup.R",
+      "workspace_script": "revision_20261113/scripts/mexico_followup/refit_mx2023_followup.R",
+      "args": [
+        "{workspace}/revision_20261113/scripts/mexico_followup/refit_mx2023_followup.R",
+        "--root={workspace}/revision_20261113",
+        "--mode=A"
+      ],
+      "requires_inputs": [
+        "data/mx_updated_calendar.csv.gz",
+        "data/mx_updated_2023_calendar.csv.gz"
+      ],
+      "requires_outputs": [
+        "results/mx_updated/primary_complete_source_2015_2022_MX_per_unit.csv",
+        "results/mx_updated/temporal_replication_2023_fixed_2015_2022_reference_MX_per_unit.csv"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "metafor",
+        "splines"
+      ]
+    },
+    "final_mexico_complete_source_smoke": {
+      "label": "Reconstruct/audit complete-Mexico calendar and run one-unit model smoke; not a national refit",
+      "status": "runnable",
+      "script": "analysis/templates/scripts/run_mexico_updated.R",
+      "args": [
+        "{workspace}/scripts/run_mexico_updated.R",
+        "--root={workspace}",
+        "--stage=smoke",
+        "--workers={workers}"
+      ],
+      "requires_inputs": [
+        "data/mx_calendar.csv.gz",
+        "data/mx_complete_source_state_day_2015_2022.csv",
+        "data/mx_complete_source_2019_state_day.csv",
+        "data/mx_clinical_state_day.csv",
+        "data/mx_weather_2023.csv",
+        "admin/cohort_amendment_2019.json"
+      ],
+      "r_packages": [
+        "data.table",
+        "jsonlite",
+        "metafor",
+        "splines"
+      ],
+      "note": "Original runner calls read_inputs in every stage and rewrites working-calendar gzip files. Preserved repository input parts are immutable; use a fresh workspace to restore after model execution."
+    }
+  }
+}

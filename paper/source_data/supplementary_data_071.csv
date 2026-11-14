@@ -1,0 +1,5 @@
+endpoint,clinical_units,fits_attempted,fits_successful,fits_failed,primary_RRR_units,primary_minimum_days,primary_minimum_events_each_endpoint,clinical_eligibility
+strict_N20_only_vs_K80,32,32,32,0,32,250,40,"validated clinical endpoint rule: >=400 complete eligible exposure days, >=2 E3 values, K80 and numerator totals >0; no additional 30-event cutoff"
+confirmed_N20_N21_vs_K80,32,32,32,0,32,250,40,"validated clinical endpoint rule: >=400 complete eligible exposure days, >=2 E3 values, K80 and numerator totals >0; no additional 30-event cutoff"
+composition_N23_vs_K80,32,32,31,1,32,250,40,"validated clinical endpoint rule: >=400 complete eligible exposure days, >=2 E3 values, K80 and numerator totals >0; no additional 30-event cutoff"
+combined_original_N20_N23_vs_K80,32,32,32,0,32,250,40,"validated clinical endpoint rule: >=400 complete eligible exposure days, >=2 E3 values, K80 and numerator totals >0; no additional 30-event cutoff"

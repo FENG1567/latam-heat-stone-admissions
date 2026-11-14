@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-11-12T12:16:48.019653+00:00",
+  "files": {
+    "aggregate_admission_2014_2020": {
+      "bytes": 8211440,
+      "path": "/data/admin/fengshuo/latam_stone_repair_20261112/results/brazil_clinical_aggregate_adm2014_2020_by_source_year.csv.gz",
+      "sha256": "182f7dbccaf0853d011c7b4b59692d1b4613006b2fda652c931f0c35e69af923"
+    },
+    "aggregate_all_admission_years": {
+      "bytes": 9239939,
+      "path": "/data/admin/fengshuo/latam_stone_repair_20261112/results/brazil_clinical_aggregate_all_admission_years_by_source_year.csv.gz",
+      "sha256": "4d012d8deda1aa25f05bd88bd3098b4fff4445e1d6c5d15c495a38a70bd1136a"
+    },
+    "duplicate_naih_audit": {
+      "bytes": 1025,
+      "path": "/data/admin/fengshuo/latam_stone_repair_20261112/results/brazil_clinical_duplicate_naih_audit.json",
+      "sha256": "6c7e4fb10d673323d4329e64c16dff74bed18409f5dc6d339489ae9e14cbd26e"
+    },
+    "extraction_audit": {
+      "bytes": 44960,
+      "path": "/data/admin/fengshuo/latam_stone_repair_20261112/results/brazil_clinical_extraction_audit.json",
+      "sha256": "7bf7b0ac1952edc07670ac9c908ee01e3f7a758901b981c2f4c26eb54660c9b4"
+    },
+    "extractor_script": {
+      "bytes": 35171,
+      "path": "/data/admin/fengshuo/latam_stone_repair_20261112/scripts/extract_brazil_clinical.py",
+      "sha256": "e2e96f41e99186de09637fab1645be2465bcde9a45b6b1af5d9560acfc6a05cd"
+    }
+  },
+  "remote_root": "/data/admin/fengshuo/latam_stone_repair_20261112"
+}

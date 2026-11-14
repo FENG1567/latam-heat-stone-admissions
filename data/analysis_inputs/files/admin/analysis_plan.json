@@ -1,0 +1,42 @@
+{
+  "project": "latam_stone_20261109",
+  "repair_date": "2026-11-12",
+  "authorization": "User authorized repairs, additional justified analyses and direct or registration-based public downloads; application-only data excluded.",
+  "old_freeze_sha256": "55837ebf61719257f7bc057e20880d65a6816a42a043aea30a760b19b5981436",
+  "old_freeze_check": "sha256sum -c frozen_numbers.sha256 passed this turn",
+  "preserve_old_inputs": true,
+  "primary_target": "Within-unit P95 versus shared median temperature ratio of rate ratios, urinary N20-N23 versus K80; secondary comparisons with K81",
+  "primary_design": "Quasi-Poisson stacked model with disease-specific exposure and calendar terms: disease*(ns(E,3)+dow+month+ns(time,12)); Brazil population offset, Mexico no offset",
+  "primary_covariance": "Calendar-day score aggregation Bartlett HAC lag 14, no extra dispersion multiplier",
+  "covariance_sensitivity": [
+    "paired-day HC0",
+    "quasi model covariance",
+    "HAC28"
+  ],
+  "unit_pooling": "DL historical comparator and REML/Hartung-Knapp sensitivity; retain explicit between-unit independence limitation",
+  "exposure": "Complete actual-calendar weather lag0-2, all three observations required, constructed before outcome/date-period exclusions",
+  "reference": "Exact unit P95,median and spline basis on commoneligiblepaired fullperiodanalysisdates; preserved for fixed-temperature temporalrefits",
+  "analysis_matrix": [
+    "P0 data/source hashes, coverage and missingness audit, original-results reproduction where executable source available",
+    "P1 repaired country disease comparisons, separate calendar adjustment primary and shared calendar sensitivity",
+    "P1 covariance comparisons and residual temporal dependence diagnostics",
+    "P2 original eight-cell grid and lag0-2/6/13/20, corrected exposures; no full crossing with every new setting",
+    "P2 disease-specific year-month fixed effects model",
+    "P2 existing temporal refit splits with fixed full-period temperature targets/basis and period-specific reference sensitivity",
+    "P2 Mexico excluding2020-2021 and leave-one-state-out",
+    "P2 main effects exactP95 vs constrainedP10-P60 MRT, full contrast covariance and sharedmedian comparator",
+    "P2 MRT reselection joint coefficient simulation, explicitly approximate rather than refit bootstrap",
+    "P2 curves to30C, separate modeled-E support and fitted contributors, support-restricted sensitivity with localP2-P98 and >=30 days within1C",
+    "P2 standardized mean daily admission contrast P95vsmedian, full gradient and synchronous national daily-score HAC",
+    "P2 verify admission dictionary, separate elective/emergency/other/unknown, formal disease-by-exposure-by-admission interaction",
+    "P3 strict urinary stone and calculous biliary endpoint definitions after dictionary and cross-year completeness validation",
+    "P3 age/sex case-mix standardization or limited interaction analyses if fields are reliable across years",
+    "P3 recover2019Mexico officialSSAarchive and matching existing weather, evaluateincludingmissingyear with fixedbaselineandnewperiodrefs",
+    "P3 independently refitMexico2023 as supplementarypostpandemictemporalreplication ifmatchingERA5Landweathercanbedownloaded andclinicalfieldqualitypasses",
+    "P3 adultage-sexcommon-case-mixstandardization usingcountry-pooledobservedcaseweightsfixedbeforeeffectresults;uniformweight sensitivity and formaladmission/sexinteraction"
+  ],
+  "selection_policy": "Analysis decisions fixed before repaired results. Report positive, null and adverse findings. No iterative tuning to preserve previous estimates or significance.",
+  "new_results_policy": "New results enter a separately versioned frozen table with source/procedure provenance and checksum before manuscript update.",
+  "display_limit": "Exactly four main figures plus four main tables; additional analyses in supplement",
+  "execution_status": "Inventory/design stage; environment refresh interrupted the initial inventory before file delivery. Bounded tasks being resumed."
+}

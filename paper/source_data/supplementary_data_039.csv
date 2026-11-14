@@ -1,0 +1,2 @@
+tag,country,cohort,contrast,covariance,method,RR,lo,hi,k,I2,concordance,reference
+mexico2023_followup,MX,admission dates 2023; discharge/source years 2023 and 2024,y_urinary_vs_y_K80,HAC14,DL,1.09608919180214,0.970123085517975,1.23841142873537,30,49.9930866814627,0.633333333333333,per-state 2015-2022 primary E3 basis/P95/shared median fixed

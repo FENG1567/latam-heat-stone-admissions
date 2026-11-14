@@ -1,0 +1,3 @@
+source_year,rows,blank_ids,target_rows,target_exact_full_row_repeat_extra,target_nonid_signature_repeat_extra,invalid_admission_date,invalid_discharge_date,invalid_residence_state,negative_length_of_stay,length_of_stay_field_mismatch,unique_ids,unique_target_ids,unique_target_exact_signatures,unique_target_nonid_signatures
+2023,2591278,0,86769,0,16,0,0,2353,0,6446,2591278,86769,86769,86753
+2024,2649236,0,89895,0,59,0,0,1835,0,7541,2649236,89895,89895,89836

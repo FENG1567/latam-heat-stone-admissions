@@ -1,0 +1,13 @@
+name: Frozen-result reproduction
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r environment/requirements-publication.txt
+      - run: python scripts/verify_repo.py
+      - run: python code/publication/run_publication.py --frozen data/frozen/frozen_numbers.md --outdir build/publication

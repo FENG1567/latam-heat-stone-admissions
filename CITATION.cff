@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: 'Please cite this software and the associated paper when using these materials.'
+title: 'Short-Term Heat and Hospital Admissions in Brazil and Mexico: A Direct Comparison of Urinary Calculi and Renal Colic With Gallbladder and Bile Duct Stones'
+type: software
+version: 1.0.0
+date-released: 2026-11-15
+authors:
+  - family-names: Feng
+    given-names: Shuo
+  - family-names: Shi
+    given-names: Chao
+  - family-names: Liu
+    given-names: Tianming
+  - family-names: Ding
+    given-names: Haoran
+  - family-names: Hang
+    given-names: Fenghe
+  - family-names: Huang
+    given-names: Zhenghao
+  - family-names: Meng
+    given-names: Xianzhi
+    email: mengxianzhi@hrbmu.edu.cn
+license: MIT
+abstract: 'Scientific code, aggregate inputs and frozen-result reproduction for short-term heat and stone-related hospital admission records in Brazil and Mexico. See LICENSE-DATA.md for data rights and docs/REPRODUCIBILITY.md for validation scope.'
+
+repository-code: 'https://github.com/FENG1567/latam-heat-stone-admissions'
+url: 'https://github.com/FENG1567/latam-heat-stone-admissions'

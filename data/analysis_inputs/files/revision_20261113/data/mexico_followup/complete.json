@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "parser_version": "header_projected_csv_audit_v2",
+  "rule": "Header-defined selected values match legacy usecols projection; extra fields audited; 2016 uses explicit month/day/year dates. Initial missing-case inference withdrawn pending exact daily-count validation; IDs never emitted.",
+  "outputs": {
+    "all_clinical.csv.gz": "c86eae7829c6e2b4a49d50e619b0e23a7a389512d712d7fd84a6d48cfa54203f",
+    "all_daily.csv.gz": "9a0cfc6efe6855e10b821060c95ac3bb3ea1533254d8c22656cf236c4abb0a5a",
+    "all_diagnosis_audit.csv": "360f4776516fd79ab41b271eb0341a7be794df6c1e14eb291e3d5e6abf61232e",
+    "all_discharge_years.csv": "4b564bbd33119d3242bfe67053d6910e2a3af8cc5a5be1cf9b3e60b6377c813e",
+    "all_duplicates.csv": "f4f1a71594f9a2637fb2ded5bfcdd50042f7c15232c3f10408e0622b6292f7a0",
+    "corrected_mx_complete_clinical_long_2015_2022.csv.gz": "7572d2e7e1490c6bb1b8b06fb4bbfb67994b776691c2f0ed3904ac2fcd1c8bcd",
+    "parser_repair_summary.csv": "61a913763cea246ade79f0eac45686273d2aa7f3756ae8864e5d99fa6800a79b"
+  }
+}

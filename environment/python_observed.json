@@ -1,0 +1,19 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "packages": {
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "Pillow": "10.2.0",
+    "pandas": "3.1.1",
+    "pyarrow": "26.0.1",
+    "xarray": null,
+    "netCDF4": null,
+    "h5netcdf": null,
+    "requests": "2.31.0",
+    "cdsapi": null,
+    "holidays": null,
+    "PyYAML": "6.0.1",
+    "scipy": "1.18.1"
+  },
+  "status": "Observed packaging environment, not a claimed fresh installation or a complete historical lock."
+}

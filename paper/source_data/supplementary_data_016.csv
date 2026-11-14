@@ -1,0 +1,13 @@
+origin_raw,origin_group,type_service,records
+1,outpatient_consultation_origin,1,95911
+1,outpatient_consultation_origin,2,9567
+2,ED_origin,1,205488
+2,ED_origin,2,4075
+3,referred_origin,1,2511
+3,referred_origin,2,767
+4,other_origin,1,2984
+4,other_origin,2,193
+5,unknown_origin_code,1,1667
+5,unknown_origin_code,2,89
+9,unspecified_origin,1,4345
+9,unspecified_origin,2,89

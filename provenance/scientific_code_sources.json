@@ -1,0 +1,237 @@
+[
+  {
+    "path": "analysis/templates/scripts/repair_engine.R",
+    "source": "archived_final_scientific_scripts/repair_engine.R",
+    "sha256": "d0ec8a6a966090c83dc069534ff79f9780649b3567728ba2aa605f5bc2279afb"
+  },
+  {
+    "path": "analysis/templates/scripts/run_core.R",
+    "source": "archived_final_scientific_scripts/run_core.R",
+    "sha256": "5d3e7c24abc213b44040e696b04f32fecd6c467b8a90dad6d6d92d58c097f612"
+  },
+  {
+    "path": "analysis/templates/scripts/run_mexico_updated.R",
+    "source": "archived_final_scientific_scripts/run_mexico_updated.R",
+    "sha256": "6ca462582742c0f7e87ed815b58f4dfca0b52c302ae85b264cb5bdfe6a789fb1"
+  },
+  {
+    "path": "analysis/templates/scripts/run_clinical_validated.R",
+    "source": "archived_final_scientific_scripts/run_clinical_validated.R",
+    "sha256": "53d823ffef5618a48259aec484d26a5420f549bdac7b7319cbe99e5d9423fd63"
+  },
+  {
+    "path": "analysis/templates/scripts/run_clinical.R",
+    "source": "archived_final_scientific_scripts/run_clinical.R",
+    "sha256": "53d823ffef5618a48259aec484d26a5420f549bdac7b7319cbe99e5d9423fd63"
+  },
+  {
+    "path": "analysis/templates/scripts/merge_brazil_clinical_batches.R",
+    "source": "archived_final_scientific_scripts/merge_brazil_clinical_batches.R",
+    "sha256": "8286db4b12347d386d8b12f624a868b1f3fa49099e43509c09b0a691fd852763"
+  },
+  {
+    "path": "analysis/templates/scripts/postprocess_brazil_admission_group_pools.R",
+    "source": "archived_final_scientific_scripts/postprocess_brazil_admission_group_pools.R",
+    "sha256": "36403bbc93c2e51fd60ccf3db243f48cb17d2ccf907641884b46a9900684162d"
+  },
+  {
+    "path": "analysis/templates/scripts/build_clinical_pool_registry.py",
+    "source": "archived_final_scientific_scripts/build_clinical_pool_registry.py",
+    "sha256": "6a81f6d37787dc72b384240ee531477ace5033f962f35dce7196f66a1d90802e"
+  },
+  {
+    "path": "analysis/templates/scripts/run_mexico_origin.R",
+    "source": "archived_final_scientific_scripts/run_mexico_origin.R",
+    "sha256": "f1e61f816eb8b96ac6d47b142dfc5e292ff4bf27a2e78cf765593d038d932bf3"
+  },
+  {
+    "path": "analysis/templates/scripts/run_mexico_origin_dictionary_window.R",
+    "source": "archived_final_scientific_scripts/run_mexico_origin_dictionary_window.R",
+    "sha256": "4cb72e90174ae25ecb458240a3badeee19fd76cbdd511b8f41a0edecfed8dbab"
+  },
+  {
+    "path": "analysis/templates/scripts/run_synchronous_meta.R",
+    "source": "archived_final_scientific_scripts/run_synchronous_meta.R",
+    "sha256": "ad22a6c1d8f444ce133221423c5a05a09e3b16a3fb7c62cd9ddbea4649ae8ee2"
+  },
+  {
+    "path": "analysis/templates/scripts/repair_synchronous_summary.py",
+    "source": "archived_final_scientific_scripts/repair_synchronous_summary.py",
+    "sha256": "f95504eae4b74825ef74f4e13683d6953ab33b1222f2a6be82de762a7f37d349"
+  },
+  {
+    "path": "analysis/templates/scripts/run_dlnm.R",
+    "source": "archived_final_scientific_scripts/run_dlnm.R",
+    "sha256": "9581da5a802de48b50916cf0e710a06c4ce2226f0fd490a7b7204941b0fa65b7"
+  },
+  {
+    "path": "analysis/templates/scripts/run_curves_burden.R",
+    "source": "archived_final_scientific_scripts/run_curves_burden.R",
+    "sha256": "51706db80b4acb97e3f2cd28b9cf03ab329244665ad14e95dcb2fb94b3615ab5"
+  },
+  {
+    "path": "analysis/templates/scripts/run_moisture_sensitivity.R",
+    "source": "archived_final_scientific_scripts/run_moisture_sensitivity.R",
+    "sha256": "338c67e79eeded235462205194198519dd2172899582dc165baf4e6006b08847"
+  },
+  {
+    "path": "analysis/templates/scripts/run_moisture_sensitivity_fresh.R",
+    "source": "archived_final_scientific_scripts/run_moisture_sensitivity_fresh.R",
+    "sha256": "ab0cfc26bdb0685f7e33bd5770f54400bf0bef06df65641cc035e0d6164b1116"
+  },
+  {
+    "path": "analysis/templates/scripts/prepare_panels.py",
+    "source": "archived_final_scientific_scripts/prepare_panels.py",
+    "sha256": "3301fff30d2310bdb56070f881cf9b0f71b22497579af5f5474b5f4ca83a4587"
+  },
+  {
+    "path": "analysis/templates/scripts/prepare_br_server.R",
+    "source": "archived_final_scientific_scripts/prepare_br_server.R",
+    "sha256": "44237697c49f3abadece80a44096feec9383a80113d7709c1673ee2d5d7128a5"
+  },
+  {
+    "path": "analysis/templates/scripts/make_weather_bridge.py",
+    "source": "archived_final_scientific_scripts/make_weather_bridge.py",
+    "sha256": "9efe28019411f8f54d703e84fe8674174c0be9c45eaa7deb59ea9ffd8f078e79"
+  },
+  {
+    "path": "analysis/templates/scripts/prepare_moisture_covariates.py",
+    "source": "archived_final_scientific_scripts/prepare_moisture_covariates.py",
+    "sha256": "97e90b46caf8794a686175ff1dd9cef700a22ef40f47c8e16392699a4d0be6bb"
+  },
+  {
+    "path": "analysis/templates/scripts/extract_brazil_clinical.py",
+    "source": "archived_final_scientific_scripts/extract_brazil_clinical.py",
+    "sha256": "e2e96f41e99186de09637fab1645be2465bcde9a45b6b1af5d9560acfc6a05cd"
+  },
+  {
+    "path": "analysis/templates/scripts/extract_mexico_clinical.py",
+    "source": "archived_final_scientific_scripts/extract_mexico_clinical.py",
+    "sha256": "44d6ddad1cbde5f40d8b2366e3e6e79f231c062e0a948b16b4a32f67373c3081"
+  },
+  {
+    "path": "analysis/templates/scripts/extract_mexico_origin.py",
+    "source": "archived_final_scientific_scripts/extract_mexico_origin.py",
+    "sha256": "6e3d1936ae48ce27aaefc3fb67968e678654c1ba33e5e68406e02b511c6c935e"
+  },
+  {
+    "path": "analysis/templates/scripts/historical_residence_extract.R",
+    "source": "archived_final_scientific_scripts/historical_residence_extract.R",
+    "sha256": "ee3a3f7c78db281dd29dd1e4d8b194c9b4b88bd4ed8d1c6b5096a1f7247f9923"
+  },
+  {
+    "path": "analysis/templates/scripts/recover_mexico_crossyear.py",
+    "source": "archived_final_scientific_scripts/recover_mexico_crossyear.py",
+    "sha256": "fb67fa5cf23462d4a35e53174245d25eed5e2905973a2e944f333a6cc255159e"
+  },
+  {
+    "path": "analysis/templates/scripts/recover_mexico_2019_weather.py",
+    "source": "archived_final_scientific_scripts/recover_mexico_2019_weather.py",
+    "sha256": "2be66cb0907b9a683da11ce88a6a49633d7253294c1dfca1f3cd4eb02e14baf0"
+  },
+  {
+    "path": "analysis/templates/scripts/acquire_mexico2023_weather.py",
+    "source": "archived_final_scientific_scripts/acquire_mexico2023_weather.py",
+    "sha256": "46f2b3cdf96e162d7e50dfffca3229fd926749d5338cc62e4843db89b6c45e75"
+  },
+  {
+    "path": "analysis/templates/scripts/audit_temporal_support.py",
+    "source": "archived_final_scientific_scripts/audit_temporal_support.py",
+    "sha256": "386a47be3e697348f8e5690cd98c7bfc2d0e75764b611432e095fde9f4b2564c"
+  },
+  {
+    "path": "analysis/templates/scripts/marginals_curves/extract_joint_marginals.R",
+    "source": "archived_final_scientific_scripts/marginals_curves/extract_joint_marginals.R",
+    "sha256": "3b92d184daea05dc29e0f2117306ca3307f52358d543017c91e81a5d71fd464d"
+  },
+  {
+    "path": "analysis/templates/scripts/marginals_curves/audit_curve_pooling.R",
+    "source": "archived_final_scientific_scripts/marginals_curves/audit_curve_pooling.R",
+    "sha256": "ad0887d6c69171dd634a3fcbe9e3e61e9ae2d0450450225e6ca06eb5715521d6"
+  },
+  {
+    "path": "analysis/templates/scripts/marginals_curves/capture_curve_pooling_warnings.R",
+    "source": "archived_final_scientific_scripts/marginals_curves/capture_curve_pooling_warnings.R",
+    "sha256": "a85cf2f3da242f13921472d914f3d91ab303fc8956aadc7ae1e349a6c6e549ba"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/clinical_bridge/clinical_bridge.R",
+    "source": "revision_scripts/clinical_bridge/clinical_bridge.R",
+    "sha256": "69a8d702d6822b3bebb816d28d48c65195c4b0885b7ded950a661ab77b9979ef"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/clinical_bridge/finalize_clinical_bridge_outputs.R",
+    "source": "revision_scripts/clinical_bridge/finalize_clinical_bridge_outputs.R",
+    "sha256": "3154f69cec56d2c42d30807b1b40f33fb4eb0290a66d1bafd8929fb87ea00fac"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/clinical_bridge/m07_target_join_smoke.R",
+    "source": "revision_scripts/clinical_bridge/m07_target_join_smoke.R",
+    "sha256": "bcc1ebfebc24b975480d890a5f5743075e868ad3b150a7adcde37457895b26d4"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/clinical_bridge/validate_m07_reproduction.R",
+    "source": "revision_scripts/clinical_bridge/validate_m07_reproduction.R",
+    "sha256": "1c3f2e04fdf625700c330fa633fd137b779995651ae223cbecee92ec803e18fe"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/marginals_curves/audit_curve_pooling.R",
+    "source": "revision_scripts/marginals_curves/audit_curve_pooling.R",
+    "sha256": "ad0887d6c69171dd634a3fcbe9e3e61e9ae2d0450450225e6ca06eb5715521d6"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/marginals_curves/extract_joint_marginals.R",
+    "source": "revision_scripts/marginals_curves/extract_joint_marginals.R",
+    "sha256": "3b92d184daea05dc29e0f2117306ca3307f52358d543017c91e81a5d71fd464d"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/marginals_curves/smoke_joint_cache_projection.R",
+    "source": "revision_scripts/marginals_curves/smoke_joint_cache_projection.R",
+    "sha256": "507c824356f2761a8f3b146f745033f73f6eadb7e3f37e570619001507b58ec4"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/mexico_followup/launch_followup.sh",
+    "source": "revision_scripts/mexico_followup/launch_followup.sh",
+    "sha256": "b729973a844e47b6c8f6720351227f26b62326b87c6eac23c24845d54974b359"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/mexico_followup/refit_mx2023_followup.R",
+    "source": "revision_scripts/mexico_followup/refit_mx2023_followup.R",
+    "sha256": "c1e541f88c7cb099948742fffd0b980405735ffe274ed1d6a64fdb2456a194cb"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/mexico_followup/refit_mx2023_followup_A_executed.R",
+    "source": "revision_scripts/mexico_followup/refit_mx2023_followup_A_executed.R",
+    "sha256": "4c6e81ff0be8ba8b5be286ecf375c5bbef7f5ded5cedb844a66564d5ffba6132"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/mexico_followup/summarize_mexico_followup.py",
+    "source": "revision_scripts/mexico_followup/summarize_mexico_followup.py",
+    "sha256": "21c8f1c008bdc8007575442e2f5153c6827de54a1760d32d12d19799081c2e93"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/pool_main_common_success_m04.R",
+    "source": "revision_scripts/pool_main_common_success_m04.R",
+    "sha256": "246e0195c5279869330a773888590075004cac7c523503bbb466a9a039fd2961"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/temporal/repair_engine_temporal.R",
+    "source": "revision_scripts/temporal/repair_engine_temporal.R",
+    "sha256": "95ea98f876f931d1085ba381ae0d20810f837c940d21092d5913271b7c76c860"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/temporal/run_temporal_m04.R",
+    "source": "revision_scripts/temporal/run_temporal_m04.R",
+    "sha256": "6edd43f794d8d7865067bee9586339b8edda7f4aa7fb55e8506d5859aa07acac"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/temporal/run_temporal_m04_smoke_20261113.R",
+    "source": "revision_scripts/temporal/run_temporal_m04_smoke_20261113.R",
+    "sha256": "09ad9da40ce7783b9da0a33598045c6d6ec15c7cc84dcddf1001514bdafa5e95"
+  },
+  {
+    "path": "analysis/templates/revision_20261113/scripts/temporal/test_temporal_engine.R",
+    "source": "revision_scripts/temporal/test_temporal_engine.R",
+    "sha256": "c15049765fd77cfd7b1242ea918eb9107242f53ad8ed0c6c05163cf904e92617"
+  }
+]

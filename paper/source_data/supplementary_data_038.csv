@@ -1,0 +1,7 @@
+sensitivity,outcome,registered_events,concordant_events,events_excluded
+primary_2015_2022_source_year_equals_discharge_year,y_K80,318331,317857,474
+primary_2015_2022_source_year_equals_discharge_year,y_K81,230020,229698,322
+primary_2015_2022_source_year_equals_discharge_year,y_urinary,70911,70816,95
+extended_2023_source_year_equals_discharge_year,y_K80,41377,41377,0
+extended_2023_source_year_equals_discharge_year,y_K81,32710,32710,0
+extended_2023_source_year_equals_discharge_year,y_urinary,10271,10271,0

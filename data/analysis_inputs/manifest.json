@@ -1,0 +1,981 @@
+{
+  "schema_version": 1,
+  "chunking": "Binary chunks; concatenate bytes in listed order. No CSV values reserialized.",
+  "inputs": [
+    {
+      "target": "data/br_calendar.csv.gz",
+      "sha256": "e52285b334b7ee6171d09c122c95144f0648d12093e715a2afdc555991c185ff",
+      "bytes": 106471888,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/shards/br_calendar.csv.gz.part001",
+          "sha256": "f0b174f8b6af6779566aef6feee0c5ec4271ce116020bc4f367217b92e3d9007",
+          "bytes": 20971520
+        },
+        {
+          "path": "data/analysis_inputs/shards/br_calendar.csv.gz.part002",
+          "sha256": "84fbc18b5a670e14a1ee28e2f3135f597766016ac3f8bb068e3640767c8cdd83",
+          "bytes": 20971520
+        },
+        {
+          "path": "data/analysis_inputs/shards/br_calendar.csv.gz.part003",
+          "sha256": "4c537ba28d1857d0bbdfaa44f6917f6ed004fac1532f858a4c1d9737a4614c56",
+          "bytes": 20971520
+        },
+        {
+          "path": "data/analysis_inputs/shards/br_calendar.csv.gz.part004",
+          "sha256": "4f20fa47b83940d161e2bdbc43cedbd0e22bfaaa502a73b4d7b87b41d1706eaa",
+          "bytes": 20971520
+        },
+        {
+          "path": "data/analysis_inputs/shards/br_calendar.csv.gz.part005",
+          "sha256": "40ecf077d46b544f058766dafa9aab1aef68853fbe5be41b140a9e2818737d87",
+          "bytes": 20971520
+        },
+        {
+          "path": "data/analysis_inputs/shards/br_calendar.csv.gz.part006",
+          "sha256": "68d38f55bc798f3d93236e65c914e5141acb6a41c3b973b5c9cd6b5c4f4d33c6",
+          "bytes": 1614288
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/br_calendar.csv.gz"
+    },
+    {
+      "target": "data/br_moisture_calendar.csv.gz",
+      "sha256": "ed9c8f93ca2a9e8c3a84f12101d4adc8195a904c265305b49fd9b03c00650147",
+      "bytes": 99066057,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/shards/br_moisture_calendar.csv.gz.part001",
+          "sha256": "99a730f2e84fc6b6e96c041b295bc81a68d008a0bf20768a1eb80721cd948236",
+          "bytes": 20971520
+        },
+        {
+          "path": "data/analysis_inputs/shards/br_moisture_calendar.csv.gz.part002",
+          "sha256": "e707b7a9150260c74893dc1adee890c55573415c4b6b107f14ef42eb1a57ae6f",
+          "bytes": 20971520
+        },
+        {
+          "path": "data/analysis_inputs/shards/br_moisture_calendar.csv.gz.part003",
+          "sha256": "a461bcccf932709b493288835f486aaef02b94186dd2f090c7f42fac3327723c",
+          "bytes": 20971520
+        },
+        {
+          "path": "data/analysis_inputs/shards/br_moisture_calendar.csv.gz.part004",
+          "sha256": "ef46af6eb249873c03576bdbd2d12172b7aaabab8a59871d3352a8297e384e84",
+          "bytes": 20971520
+        },
+        {
+          "path": "data/analysis_inputs/shards/br_moisture_calendar.csv.gz.part005",
+          "sha256": "29f8b731133b2c8d99837ac0a96b1da086769358bddccf35846de290d4ab7589",
+          "bytes": 15179977
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/br_moisture_calendar.csv.gz"
+    },
+    {
+      "target": "data/mx_calendar.csv.gz",
+      "sha256": "09909399465b84acb9766e23345de97f86e7140843739c879cb74b10d8dc2381",
+      "bytes": 4795522,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_calendar.csv.gz",
+          "sha256": "09909399465b84acb9766e23345de97f86e7140843739c879cb74b10d8dc2381",
+          "bytes": 4795522
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_calendar.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_long.csv.gz",
+      "sha256": "9bc606ba87f228c5eed3b68d26ee999eb60a33651162c7c917ac0421c661b220",
+      "bytes": 1727599,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_long.csv.gz",
+          "sha256": "9bc606ba87f228c5eed3b68d26ee999eb60a33651162c7c917ac0421c661b220",
+          "bytes": 1727599
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_long.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_state_day.csv",
+      "sha256": "feff51ec0bca18fc2228f619db9e8b03f071780c5d0d3e4ba004cc3afc70af81",
+      "bytes": 5727565,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_state_day.csv",
+          "sha256": "feff51ec0bca18fc2228f619db9e8b03f071780c5d0d3e4ba004cc3afc70af81",
+          "bytes": 5727565
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_state_day.csv"
+    },
+    {
+      "target": "data/mx_clinical_state_day_2015.csv.gz",
+      "sha256": "2d15f1b5dda2de5291e8746706503dd6f659f11c8564604b0ef0e27440871bf0",
+      "bytes": 54591,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_state_day_2015.csv.gz",
+          "sha256": "2d15f1b5dda2de5291e8746706503dd6f659f11c8564604b0ef0e27440871bf0",
+          "bytes": 54591
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_state_day_2015.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_state_day_2016.csv.gz",
+      "sha256": "8b42d6710b0993112cc7e2298ba4240121455e1f255164fc89d06b7b448740e4",
+      "bytes": 56458,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_state_day_2016.csv.gz",
+          "sha256": "8b42d6710b0993112cc7e2298ba4240121455e1f255164fc89d06b7b448740e4",
+          "bytes": 56458
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_state_day_2016.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_state_day_2017.csv.gz",
+      "sha256": "e385b28302054c18d396311f34f87f662b1a22372e9341c80f8d274fb319916a",
+      "bytes": 54277,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_state_day_2017.csv.gz",
+          "sha256": "e385b28302054c18d396311f34f87f662b1a22372e9341c80f8d274fb319916a",
+          "bytes": 54277
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_state_day_2017.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_state_day_2018.csv.gz",
+      "sha256": "7a443449245a177ee288536c8c6f7ae9909ac33de58ae1378ba38416839b06b5",
+      "bytes": 54077,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_state_day_2018.csv.gz",
+          "sha256": "7a443449245a177ee288536c8c6f7ae9909ac33de58ae1378ba38416839b06b5",
+          "bytes": 54077
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_state_day_2018.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_state_day_2019.csv.gz",
+      "sha256": "19d87889fd6b5672dfbf0a25e9cbfcd2d695597b59228d65e5ac23bf59610c01",
+      "bytes": 53987,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_state_day_2019.csv.gz",
+          "sha256": "19d87889fd6b5672dfbf0a25e9cbfcd2d695597b59228d65e5ac23bf59610c01",
+          "bytes": 53987
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_state_day_2019.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_state_day_2020.csv.gz",
+      "sha256": "7e8a76049d88cdc7883a32283806617a3a114dacfe94d07d2cfb4d034244c1a0",
+      "bytes": 40759,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_state_day_2020.csv.gz",
+          "sha256": "7e8a76049d88cdc7883a32283806617a3a114dacfe94d07d2cfb4d034244c1a0",
+          "bytes": 40759
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_state_day_2020.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_state_day_2021.csv.gz",
+      "sha256": "1b8e4266d8d5c52c0b1dbf1c3b35569d6c0a1f3fc0f2ef46706c1e5714c2722a",
+      "bytes": 47211,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_state_day_2021.csv.gz",
+          "sha256": "1b8e4266d8d5c52c0b1dbf1c3b35569d6c0a1f3fc0f2ef46706c1e5714c2722a",
+          "bytes": 47211
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_state_day_2021.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_state_day_2022.csv.gz",
+      "sha256": "90bbee6ae295bf0ac337d6d9fe9929997bcd3a84b9446c9abe43773883da9c06",
+      "bytes": 54051,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_state_day_2022.csv.gz",
+          "sha256": "90bbee6ae295bf0ac337d6d9fe9929997bcd3a84b9446c9abe43773883da9c06",
+          "bytes": 54051
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_state_day_2022.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_state_day_2023.csv.gz",
+      "sha256": "2b44ea453263dd9b8e125d173db7e4f8efe4379f1b23123f4561ddde77da7e9d",
+      "bytes": 55621,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_state_day_2023.csv.gz",
+          "sha256": "2b44ea453263dd9b8e125d173db7e4f8efe4379f1b23123f4561ddde77da7e9d",
+          "bytes": 55621
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_state_day_2023.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_year_2015.csv.gz",
+      "sha256": "c9a6e724e464f46bc2c54fa86cbfe31add035b2d656867a7c48af994fdd3aa35",
+      "bytes": 228179,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_year_2015.csv.gz",
+          "sha256": "c9a6e724e464f46bc2c54fa86cbfe31add035b2d656867a7c48af994fdd3aa35",
+          "bytes": 228179
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_year_2015.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_year_2016.csv.gz",
+      "sha256": "580ba30ad015ba165823a696f1b8a139e7ce1ec5d6d728d807447380379feb94",
+      "bytes": 233022,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_year_2016.csv.gz",
+          "sha256": "580ba30ad015ba165823a696f1b8a139e7ce1ec5d6d728d807447380379feb94",
+          "bytes": 233022
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_year_2016.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_year_2017.csv.gz",
+      "sha256": "01b70dc1f83f82ed099baa3b317d2539da6198357f88a2bc67ecb0a185d3f0e0",
+      "bytes": 217473,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_year_2017.csv.gz",
+          "sha256": "01b70dc1f83f82ed099baa3b317d2539da6198357f88a2bc67ecb0a185d3f0e0",
+          "bytes": 217473
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_year_2017.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_year_2018.csv.gz",
+      "sha256": "184d909055c068c43417f54155f83424d5f7ad4fd02b3123ca6697e49903f7af",
+      "bytes": 215025,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_year_2018.csv.gz",
+          "sha256": "184d909055c068c43417f54155f83424d5f7ad4fd02b3123ca6697e49903f7af",
+          "bytes": 215025
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_year_2018.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_year_2019.csv.gz",
+      "sha256": "498fcceed44428f9514feccba6bd67bea8c1599d507d7f0520bf5d55e51ae40c",
+      "bytes": 219375,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_year_2019.csv.gz",
+          "sha256": "498fcceed44428f9514feccba6bd67bea8c1599d507d7f0520bf5d55e51ae40c",
+          "bytes": 219375
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_year_2019.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_year_2020.csv.gz",
+      "sha256": "01bf24df81df967c29718e13252f3017d0546e2c28d01f3c2d53623b1bf03384",
+      "bytes": 95410,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_year_2020.csv.gz",
+          "sha256": "01bf24df81df967c29718e13252f3017d0546e2c28d01f3c2d53623b1bf03384",
+          "bytes": 95410
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_year_2020.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_year_2021.csv.gz",
+      "sha256": "840fab25721556ca9d2e483b6b73c6c851b0c8755d94c10a6f072fca4fbf2ff5",
+      "bytes": 123534,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_year_2021.csv.gz",
+          "sha256": "840fab25721556ca9d2e483b6b73c6c851b0c8755d94c10a6f072fca4fbf2ff5",
+          "bytes": 123534
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_year_2021.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_year_2022.csv.gz",
+      "sha256": "5e7e790f8f18a5db5058f281ea26918b6bd339223741cb4a2befa5db6ee54725",
+      "bytes": 166849,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_year_2022.csv.gz",
+          "sha256": "5e7e790f8f18a5db5058f281ea26918b6bd339223741cb4a2befa5db6ee54725",
+          "bytes": 166849
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_year_2022.csv.gz"
+    },
+    {
+      "target": "data/mx_clinical_year_2023.csv.gz",
+      "sha256": "d40d6de252b45c8263e776ff28b048ec9604623d1bcfd303377cc42e8337175e",
+      "bytes": 174870,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_clinical_year_2023.csv.gz",
+          "sha256": "d40d6de252b45c8263e776ff28b048ec9604623d1bcfd303377cc42e8337175e",
+          "bytes": 174870
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_clinical_year_2023.csv.gz"
+    },
+    {
+      "target": "data/mx_complete_source_2019_state_day.csv",
+      "sha256": "daebc9c63847fa28fc89e5b7832fe8a70c09eb1a9391fc6fa9c2a4196bcad356",
+      "bytes": 737566,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_complete_source_2019_state_day.csv",
+          "sha256": "daebc9c63847fa28fc89e5b7832fe8a70c09eb1a9391fc6fa9c2a4196bcad356",
+          "bytes": 737566
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_complete_source_2019_state_day.csv"
+    },
+    {
+      "target": "data/mx_complete_source_by_source_year_state_day_2015_2022.csv.gz",
+      "sha256": "2352301765c98d41c6ef8579b90cc7d1007cc67f8f4dfa029916c05de4aa6b62",
+      "bytes": 431150,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_complete_source_by_source_year_state_day_2015_2022.csv.gz",
+          "sha256": "2352301765c98d41c6ef8579b90cc7d1007cc67f8f4dfa029916c05de4aa6b62",
+          "bytes": 431150
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_complete_source_by_source_year_state_day_2015_2022.csv.gz"
+    },
+    {
+      "target": "data/mx_complete_source_correction_2019.csv.gz",
+      "sha256": "be9deece1047392a2aeb848970c25cda2c7b5fa94c73c53823546f7a64719a9f",
+      "bytes": 1663,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_complete_source_correction_2019.csv.gz",
+          "sha256": "be9deece1047392a2aeb848970c25cda2c7b5fa94c73c53823546f7a64719a9f",
+          "bytes": 1663
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_complete_source_correction_2019.csv.gz"
+    },
+    {
+      "target": "data/mx_complete_source_correction_2020.csv.gz",
+      "sha256": "c3ec6d8f48dbc5be9e7718b66e1ee2fdef80e2b12f2a31e81393f11e82611e83",
+      "bytes": 1359,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_complete_source_correction_2020.csv.gz",
+          "sha256": "c3ec6d8f48dbc5be9e7718b66e1ee2fdef80e2b12f2a31e81393f11e82611e83",
+          "bytes": 1359
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_complete_source_correction_2020.csv.gz"
+    },
+    {
+      "target": "data/mx_complete_source_correction_2021.csv.gz",
+      "sha256": "630fd414e5c10a464a8902162c8473fb3911a3027b173679cbc23aceace00c0b",
+      "bytes": 174,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_complete_source_correction_2021.csv.gz",
+          "sha256": "630fd414e5c10a464a8902162c8473fb3911a3027b173679cbc23aceace00c0b",
+          "bytes": 174
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_complete_source_correction_2021.csv.gz"
+    },
+    {
+      "target": "data/mx_complete_source_corrections.csv.gz",
+      "sha256": "d486755dd4b7255ef0c202781bc243b95689e22c5d8b7ba6914fbf558d0fbf03",
+      "bytes": 2843,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_complete_source_corrections.csv.gz",
+          "sha256": "d486755dd4b7255ef0c202781bc243b95689e22c5d8b7ba6914fbf558d0fbf03",
+          "bytes": 2843
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_complete_source_corrections.csv.gz"
+    },
+    {
+      "target": "data/mx_complete_source_long_2015_2022.csv.gz",
+      "sha256": "4bb1606b34f8c8e54332737e5fc3ea14b37a40ea30469889085b7fc26047fda9",
+      "bytes": 1568253,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_complete_source_long_2015_2022.csv.gz",
+          "sha256": "4bb1606b34f8c8e54332737e5fc3ea14b37a40ea30469889085b7fc26047fda9",
+          "bytes": 1568253
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_complete_source_long_2015_2022.csv.gz"
+    },
+    {
+      "target": "data/mx_complete_source_state_day_2015_2022.csv",
+      "sha256": "d7a3b70348eaa964803c8f2d6fabab123cb4537d9ba649e21f21e4761f4fcb78",
+      "bytes": 6649867,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_complete_source_state_day_2015_2022.csv",
+          "sha256": "d7a3b70348eaa964803c8f2d6fabab123cb4537d9ba649e21f21e4761f4fcb78",
+          "bytes": 6649867
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_complete_source_state_day_2015_2022.csv"
+    },
+    {
+      "target": "data/mx_moisture_calendar_2015_2022.csv.gz",
+      "sha256": "95ad3359b017fe9c0c8fb9a08a0d76237229354ae7738838f4df17b8adc16eee",
+      "bytes": 4381211,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_moisture_calendar_2015_2022.csv.gz",
+          "sha256": "95ad3359b017fe9c0c8fb9a08a0d76237229354ae7738838f4df17b8adc16eee",
+          "bytes": 4381211
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_moisture_calendar_2015_2022.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_all_origin_state_day_2015_2022.csv.gz",
+      "sha256": "93c435f49df3e38a80dc5e665921a677a976a7419d43f2691d8d94c9d429ce0e",
+      "bytes": 356103,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_all_origin_state_day_2015_2022.csv.gz",
+          "sha256": "93c435f49df3e38a80dc5e665921a677a976a7419d43f2691d8d94c9d429ce0e",
+          "bytes": 356103
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_all_origin_state_day_2015_2022.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_grouped_2015_2023.csv.gz",
+      "sha256": "4dc18ec832470ce748b71ef478d71aac126df37012058aaa1d7d61d1004e8f38",
+      "bytes": 1076199,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_grouped_2015_2023.csv.gz",
+          "sha256": "4dc18ec832470ce748b71ef478d71aac126df37012058aaa1d7d61d1004e8f38",
+          "bytes": 1076199
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_grouped_2015_2023.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_source_year_2015.csv.gz",
+      "sha256": "c1906f0b3c14ab76c29fa5b82ee88d9c766aee8e608daeae4ff4889f69c14fcf",
+      "bytes": 134314,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_source_year_2015.csv.gz",
+          "sha256": "c1906f0b3c14ab76c29fa5b82ee88d9c766aee8e608daeae4ff4889f69c14fcf",
+          "bytes": 134314
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_source_year_2015.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_source_year_2016.csv.gz",
+      "sha256": "3c3e9d8749cfa169fb7c36ec9e96b5b0271b3854341bd0b9253894fe49ad6e6a",
+      "bytes": 136337,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_source_year_2016.csv.gz",
+          "sha256": "3c3e9d8749cfa169fb7c36ec9e96b5b0271b3854341bd0b9253894fe49ad6e6a",
+          "bytes": 136337
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_source_year_2016.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_source_year_2017.csv.gz",
+      "sha256": "56572ce367a0124d0508ba31fe2c361fc3b4883829984a6efd9af8aa28ccf50f",
+      "bytes": 129362,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_source_year_2017.csv.gz",
+          "sha256": "56572ce367a0124d0508ba31fe2c361fc3b4883829984a6efd9af8aa28ccf50f",
+          "bytes": 129362
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_source_year_2017.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_source_year_2018.csv.gz",
+      "sha256": "f2028b3575e91dd306293cf19fc8b280e89533ba2379e2417e8f5a39b44e5b75",
+      "bytes": 128191,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_source_year_2018.csv.gz",
+          "sha256": "f2028b3575e91dd306293cf19fc8b280e89533ba2379e2417e8f5a39b44e5b75",
+          "bytes": 128191
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_source_year_2018.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_source_year_2019.csv.gz",
+      "sha256": "50adf63d9263034cfca964925d7a287a03697c27752b590b533052ed33ac4f63",
+      "bytes": 133969,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_source_year_2019.csv.gz",
+          "sha256": "50adf63d9263034cfca964925d7a287a03697c27752b590b533052ed33ac4f63",
+          "bytes": 133969
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_source_year_2019.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_source_year_2020.csv.gz",
+      "sha256": "66addba6ee7eb4015bd172f142cf8a9d4b0ae354b750ca5385c54a38777a531c",
+      "bytes": 77309,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_source_year_2020.csv.gz",
+          "sha256": "66addba6ee7eb4015bd172f142cf8a9d4b0ae354b750ca5385c54a38777a531c",
+          "bytes": 77309
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_source_year_2020.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_source_year_2021.csv.gz",
+      "sha256": "1ee24914146ea2a486e32e8ac391a39fc7747fb89f18b33959c47161f9ec7ce6",
+      "bytes": 95595,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_source_year_2021.csv.gz",
+          "sha256": "1ee24914146ea2a486e32e8ac391a39fc7747fb89f18b33959c47161f9ec7ce6",
+          "bytes": 95595
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_source_year_2021.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_source_year_2022.csv.gz",
+      "sha256": "96a24b75bcd9160a50f211093745f275cfda7c5164545b007e54f41f5cae8301",
+      "bytes": 127409,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_source_year_2022.csv.gz",
+          "sha256": "96a24b75bcd9160a50f211093745f275cfda7c5164545b007e54f41f5cae8301",
+          "bytes": 127409
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_source_year_2022.csv.gz"
+    },
+    {
+      "target": "data/mx_origin_source_year_2023.csv.gz",
+      "sha256": "c7900bb58bbdcc2cae978f9e2efb3db7ee7d8f60f4e11b3f94764039c8ee530d",
+      "bytes": 134075,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_origin_source_year_2023.csv.gz",
+          "sha256": "c7900bb58bbdcc2cae978f9e2efb3db7ee7d8f60f4e11b3f94764039c8ee530d",
+          "bytes": 134075
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_origin_source_year_2023.csv.gz"
+    },
+    {
+      "target": "data/mx_updated_2023_calendar.csv.gz",
+      "sha256": "db90e21740d634368e8678baca13ba1e9eb5297eaea3c40e13f9d1459e765cd2",
+      "bytes": 306086,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_updated_2023_calendar.csv.gz",
+          "sha256": "db90e21740d634368e8678baca13ba1e9eb5297eaea3c40e13f9d1459e765cd2",
+          "bytes": 306086
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_updated_2023_calendar.csv.gz"
+    },
+    {
+      "target": "data/mx_updated_calendar.csv.gz",
+      "sha256": "7450be40e4de64dd4b7c31fd570df5b71b07b8da59a4adc8504470520f46b0ac",
+      "bytes": 4879632,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_updated_calendar.csv.gz",
+          "sha256": "7450be40e4de64dd4b7c31fd570df5b71b07b8da59a4adc8504470520f46b0ac",
+          "bytes": 4879632
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_updated_calendar.csv.gz"
+    },
+    {
+      "target": "data/mx_updated_controlled_2019_calendar.csv.gz",
+      "sha256": "c1c922bcabccb74126d0f9f1f023f1a0e787840dffe4e0e69aa13de6699a4736",
+      "bytes": 4597542,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_updated_controlled_2019_calendar.csv.gz",
+          "sha256": "c1c922bcabccb74126d0f9f1f023f1a0e787840dffe4e0e69aa13de6699a4736",
+          "bytes": 4597542
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_updated_controlled_2019_calendar.csv.gz"
+    },
+    {
+      "target": "data/mx_weather_2023.csv",
+      "sha256": "9ef0e4ba802227cb45192dc378e9149b07e539b0018d37b8f7d2569e1edb1332",
+      "bytes": 378883,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/data/mx_weather_2023.csv",
+          "sha256": "9ef0e4ba802227cb45192dc378e9149b07e539b0018d37b8f7d2569e1edb1332",
+          "bytes": 378883
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "aggregate calendar or grouped input",
+      "source_alias": "canonical_analysis_archive/data/mx_weather_2023.csv"
+    },
+    {
+      "target": "results/brazil_clinical_aggregate_adm2014_2020_by_source_year.csv.gz",
+      "sha256": "182f7dbccaf0853d011c7b4b59692d1b4613006b2fda652c931f0c35e69af923",
+      "bytes": 8211440,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/results/brazil_clinical_aggregate_adm2014_2020_by_source_year.csv.gz",
+          "sha256": "182f7dbccaf0853d011c7b4b59692d1b4613006b2fda652c931f0c35e69af923",
+          "bytes": 8211440
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "Brazil grouped clinical input/provenance",
+      "source_alias": "canonical_analysis_archive/results/brazil_clinical_aggregate_adm2014_2020_by_source_year.csv.gz"
+    },
+    {
+      "target": "results/brazil_clinical_aggregate_all_admission_years_by_source_year.csv.gz",
+      "sha256": "4d012d8deda1aa25f05bd88bd3098b4fff4445e1d6c5d15c495a38a70bd1136a",
+      "bytes": 9239939,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/results/brazil_clinical_aggregate_all_admission_years_by_source_year.csv.gz",
+          "sha256": "4d012d8deda1aa25f05bd88bd3098b4fff4445e1d6c5d15c495a38a70bd1136a",
+          "bytes": 9239939
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "Brazil grouped clinical input/provenance",
+      "source_alias": "canonical_analysis_archive/results/brazil_clinical_aggregate_all_admission_years_by_source_year.csv.gz"
+    },
+    {
+      "target": "results/brazil_clinical_output_manifest.json",
+      "sha256": "c547b63eeec2f8c0502521fb6d30e3c00e1450df38a67a172858f75418732e2b",
+      "bytes": 1471,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/results/brazil_clinical_output_manifest.json",
+          "sha256": "c547b63eeec2f8c0502521fb6d30e3c00e1450df38a67a172858f75418732e2b",
+          "bytes": 1471
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "Brazil grouped clinical input/provenance",
+      "source_alias": "canonical_analysis_archive/results/brazil_clinical_output_manifest.json"
+    },
+    {
+      "target": "admin/analysis_plan.json",
+      "sha256": "96e534d32c680b82d21e8c7c529179d4b17c00b704fabb1c0bcd97be8164f86d",
+      "bytes": 4059,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/admin/analysis_plan.json",
+          "sha256": "96e534d32c680b82d21e8c7c529179d4b17c00b704fabb1c0bcd97be8164f86d",
+          "bytes": 4059
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "scientific specification or compatibility metadata",
+      "source_alias": "canonical_analysis_archive/admin/analysis_plan.json"
+    },
+    {
+      "target": "admin/clinical_io_cache_compatibility_20261113.json",
+      "sha256": "5dbfa38320c5555bbf8d01a87387546d56c5e85b040989d8fdb5b4594111c5a4",
+      "bytes": 835,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/admin/clinical_io_cache_compatibility_20261113.json",
+          "sha256": "5dbfa38320c5555bbf8d01a87387546d56c5e85b040989d8fdb5b4594111c5a4",
+          "bytes": 835
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "scientific specification or compatibility metadata",
+      "source_alias": "canonical_analysis_archive/admin/clinical_io_cache_compatibility_20261113.json"
+    },
+    {
+      "target": "admin/moisture_preparation_qa.json",
+      "sha256": "dc27707d05be6ff2d9e6029f5391f18eeafe1ea805b5352fbed7b3378340ecaa",
+      "bytes": 47008,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/admin/moisture_preparation_qa.json",
+          "sha256": "dc27707d05be6ff2d9e6029f5391f18eeafe1ea805b5352fbed7b3378340ecaa",
+          "bytes": 47008
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "scientific specification or compatibility metadata",
+      "source_alias": "canonical_analysis_archive/admin/moisture_preparation_qa.json"
+    },
+    {
+      "target": "admin/moisture_sensitivity_plan_20261113.json",
+      "sha256": "9fa5a4dd4d7e5e308c8e50d9ee205d0dd07f103dac041fe7f7d694f92916ed05",
+      "bytes": 4101,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/admin/moisture_sensitivity_plan_20261113.json",
+          "sha256": "9fa5a4dd4d7e5e308c8e50d9ee205d0dd07f103dac041fe7f7d694f92916ed05",
+          "bytes": 4101
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "scientific specification or compatibility metadata",
+      "source_alias": "canonical_analysis_archive/admin/moisture_sensitivity_plan_20261113.json"
+    },
+    {
+      "target": "admin/mx_origin_specification.json",
+      "sha256": "61330bfb7ee11d8cafd70247159db2ed4e9b51978ae4900fe86485f0b7a9733a",
+      "bytes": 5246,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/admin/mx_origin_specification.json",
+          "sha256": "61330bfb7ee11d8cafd70247159db2ed4e9b51978ae4900fe86485f0b7a9733a",
+          "bytes": 5246
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "scientific specification or compatibility metadata",
+      "source_alias": "canonical_analysis_archive/admin/mx_origin_specification.json"
+    },
+    {
+      "target": "admin/cohort_amendment_2019.json",
+      "sha256": "1c0ff8442091482ebd85e11e98f511597914db7456bcb17489a44fa3d85ebc50",
+      "bytes": 1114,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/admin/cohort_amendment_2019.json",
+          "sha256": "1c0ff8442091482ebd85e11e98f511597914db7456bcb17489a44fa3d85ebc50",
+          "bytes": 1114
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "scientific specification or compatibility metadata",
+      "source_alias": "canonical_analysis_archive/admin/cohort_amendment_2019.json"
+    },
+    {
+      "target": "revision_20261113/data/mexico_followup/all_daily.csv.gz",
+      "sha256": "9a0cfc6efe6855e10b821060c95ac3bb3ea1533254d8c22656cf236c4abb0a5a",
+      "bytes": 1552193,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/revision_20261113/data/mexico_followup/all_daily.csv.gz",
+          "sha256": "9a0cfc6efe6855e10b821060c95ac3bb3ea1533254d8c22656cf236c4abb0a5a",
+          "bytes": 1552193
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "revision aggregate/calendar input",
+      "source_alias": "canonical_analysis_archive/revision_20261113/data/mexico_followup/all_daily.csv.gz"
+    },
+    {
+      "target": "revision_20261113/data/mexico_followup/all_duplicates.csv",
+      "sha256": "f4f1a71594f9a2637fb2ded5bfcdd50042f7c15232c3f10408e0622b6292f7a0",
+      "bytes": 23393,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/revision_20261113/data/mexico_followup/all_duplicates.csv",
+          "sha256": "f4f1a71594f9a2637fb2ded5bfcdd50042f7c15232c3f10408e0622b6292f7a0",
+          "bytes": 23393
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "revision aggregate/calendar input",
+      "source_alias": "canonical_analysis_archive/revision_20261113/data/mexico_followup/all_duplicates.csv"
+    },
+    {
+      "target": "revision_20261113/data/mexico_followup/complete.json",
+      "sha256": "2b444cf355d14f8effaa44e388201c82bf88567d834920cef5d99d854c899b48",
+      "bytes": 1057,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/revision_20261113/data/mexico_followup/complete.json",
+          "sha256": "2b444cf355d14f8effaa44e388201c82bf88567d834920cef5d99d854c899b48",
+          "bytes": 1057
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "revision aggregate/calendar input",
+      "source_alias": "canonical_analysis_archive/revision_20261113/data/mexico_followup/complete.json"
+    },
+    {
+      "target": "revision_20261113/data/mexico_followup/count_identity_verified.json",
+      "sha256": "a65a7e5fd31fb97f62f77dda200bd2400023052e94ed88e070ee2c42a9755b64",
+      "bytes": 1537,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/revision_20261113/data/mexico_followup/count_identity_verified.json",
+          "sha256": "a65a7e5fd31fb97f62f77dda200bd2400023052e94ed88e070ee2c42a9755b64",
+          "bytes": 1537
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "revision aggregate/calendar input",
+      "source_alias": "canonical_analysis_archive/revision_20261113/data/mexico_followup/count_identity_verified.json"
+    },
+    {
+      "target": "br_weather_bridge.csv",
+      "sha256": "86a17bfa255e1addb8572f6e5510e72336d87f12705b20f59b91b13916fad5ab",
+      "bytes": 410190,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/br_weather_bridge.csv",
+          "sha256": "86a17bfa255e1addb8572f6e5510e72336d87f12705b20f59b91b13916fad5ab",
+          "bytes": 410190
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "pre-period aggregate temperature history",
+      "source_alias": "canonical_analysis_archive/br_weather_bridge.csv"
+    },
+    {
+      "target": "external/geography/municipality_health_region_crosswalk.csv",
+      "sha256": "8bba7718dde547e741ce5852cbc9c7f48e32995e73193c5b11500538eab2a1db",
+      "bytes": 156021,
+      "parts": [
+        {
+          "path": "data/analysis_inputs/files/external/geography/municipality_health_region_crosswalk.csv",
+          "sha256": "8bba7718dde547e741ce5852cbc9c7f48e32995e73193c5b11500538eab2a1db",
+          "bytes": 156021
+        }
+      ],
+      "kind": "aggregate_or_scientific_metadata",
+      "description": "municipality-to-region mapping; provider terms retained",
+      "source_alias": "canonical_analysis_archive/external/geography/municipality_health_region_crosswalk.csv"
+    }
+  ]
+}

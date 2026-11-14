@@ -1,0 +1,5 @@
+## Figure S1
+
+**Exploratory P95-versus-MRT associations.**
+
+Exploratory Brazilian diagnosis-specific rate ratios (RRs) compare the local 95th percentile (P95) of three-day mean temperature with the fitted minimum-risk temperature (MRT), constrained to the local P10–P60 range (tenth to sixtieth percentiles). K80 combines gallbladder and bile duct stones; K81 identifies cholecystitis; urinary N20–N23 includes urinary calculi and unspecified renal colic. Combined is the sum of these three diagnosis groups. Points are DerSimonian–Laird estimates; bars show 95% confidence intervals conditional on the selected minimum. The vertical line marks RR=1. The geographic-unit counts (k), between-unit heterogeneity (I²) and percentages of units with RR>1 are: K80, k=449, 34.6%, 68.6%; K81, k=450, 11.0%, 67.6%; urinary N20–N23, k=446, 36.0%, 93.3%; combined sum3, k=450, 39.8%, 83.3%. These estimates use a diagnosis-specific optimized reference; the primary comparison uses a shared median. The percentages describe the selected-MRT estimates, rather than an independent comparison at fixed reference temperatures. MRT selection summaries are in Table S15.

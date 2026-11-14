@@ -1,0 +1,6 @@
+-r requirements-publication.txt
+pandas==3.1.1
+pyarrow==26.0.1
+requests==2.31.0
+PyYAML==6.0.1
+scipy==1.18.1

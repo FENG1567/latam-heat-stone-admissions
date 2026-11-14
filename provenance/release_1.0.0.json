@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "release_date": "2026-11-15",
+  "repository": "https://github.com/FENG1567/latam-heat-stone-admissions",
+  "code_license": "MIT",
+  "author_owned_summary_license": "CC-BY-4.0",
+  "freeze_sha256": "284886236fa12d4ab8f6968bcb7f85244cc2f0337dbf07688e4b9e1181355b47",
+  "historical_packaging_evidence": "provenance/reproduction_verification.json",
+  "reproduction_scope": "Frozen-result figures and tables; byte-preserved aggregate inputs; module-specific analysis code and prerequisites",
+  "full_national_model_refit_performed_for_release": false,
+  "raw_patient_records_included": false
+}

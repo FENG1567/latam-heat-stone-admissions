@@ -1,0 +1,42 @@
+{
+  "decision_date_client": "2026-11-13",
+  "decision_stage": "After repaired primary results and source feasibility audit, before any moisture-adjusted effect estimates",
+  "status": "Approved finite supplementary analysis",
+  "purpose": "Assess whether the diagnosis contrast persists when conditioning on additional ambient moisture measures",
+  "primary_analysis_status": "Preserve the existing primary estimand and model results",
+  "cohorts": {
+    "Brazil": "2006-2020, original repaired region-day cohort",
+    "Mexico": "2015-2022 preferred complete-source state-day cohort"
+  },
+  "models": [
+    "Matched-sample unadjusted model, otherwise identical to the primary three-outcome model",
+    "Matched-sample model adding a three-degree-of-freedom natural spline of three-day regional or state dew-point temperature, with outcome-specific moisture terms",
+    "Matched-sample model adding a three-degree-of-freedom natural spline of three-day regional or state relative-humidity index, with outcome-specific moisture terms"
+  ],
+  "moisture_measurement": {
+    "daily_dew_point": "Normalized spatial aggregation of the daily grid-cell mean two-metre dew-point temperature",
+    "daily_RH_index": "Clip 100*es(regional_dew_point)/es(regional_temperature) to the interval 0-100, with es(x)=6.112*exp(17.67*x/(x+243.5)); this is an index derived from spatial mean temperatures",
+    "window": "Arithmetic mean of admission day and the preceding two actual calendar days, requiring all three observations",
+    "Brazil_history": "Include existing 2005 weather history before selecting 2006-2020 outcomes",
+    "Mexico_history": "Keep the same first-two-day weather-history limitation as the existing primary calendar"
+  },
+  "temperature_targets": "Retain primary full-period unit-specific exact P95, shared median and fitted temperature-basis definitions, with both outcomes using the same target temperatures",
+  "model_controls": "Use the same outcome-specific day-of-week, month and 12-df time spline, Brazil population offset, and Mexico no offset; no temperature-by-moisture effect-modification term",
+  "inference": {
+    "unit_covariance": "Joint daily-score Bartlett HAC14 without additional quasi-dispersion multiplier",
+    "pooling": ["DL", "REML-Hartung-Knapp"],
+    "contrasts": ["N20-N23 versus K80", "N20-N23 versus K81", "K81 versus K80"],
+    "interpretation": "Moisture-adjusted relative associations, with the additive exposure model and conditioning assumptions stated"
+  },
+  "eligibility": "Retain the original core minimum of 250 complete paired dates and at least 40 events in each outcome; require complete moisture windows",
+  "comparison_integrity": "Report each model's fitted-unit pool and the common-successful-unit comparison across all three settings; log all rank, convergence and variance failures without fallback",
+  "coverage_sensitivity": {
+    "rule": "Exclude Brazil units with temperature valid population weight below 0.6",
+    "affected_units": ["29020", "16001", "41001"],
+    "procedure": "Use their existing independent unit estimates for a newly calculated country meta-analysis, including new heterogeneity and weights; no unit GLM refit is mathematically needed for this geographic exclusion",
+    "scope": "Existing primary HAC14 and moisture-adjusted HAC14 country summaries, with all fitted units retained as comparison"
+  },
+  "selection_policy": "Both moisture metrics and all resulting directions and intervals will be reported; no choice by p-value or effect magnitude",
+  "provenance": "Source inventory found all 96 Mexico raw months already local; no new raw acquisition required. Temperature and dew-point masks are checked during Mexico extraction; Brazil uses existing normalized aggregates with explicit companion-temperature coverage and sampled mask checks.",
+  "runtime": "Raw extraction runs locally in a detached single process. Only small aggregated weather files transfer to the server. Effect fitting runs in isolation with native thread limits set before R startup. Existing engine and main fit caches remain unchanged."
+}

@@ -1,0 +1,7 @@
+country,weight_source_scenario,stratum,pooled_K80_N20_N23_cases,weight
+brazil,processing sources 2014–2021; admissions 2014–2020,18-44_male,210115,0.123012100107489
+brazil,processing sources 2014–2021; admissions 2014–2020,45-64_male,215163,0.125967458274886
+brazil,processing sources 2014–2021; admissions 2014–2020,65plus_male,98501,0.0576675385988043
+brazil,processing sources 2014–2021; admissions 2014–2020,18-44_female,598326,0.350290735116072
+brazil,processing sources 2014–2021; admissions 2014–2020,45-64_female,436684,0.255657215921465
+brazil,processing sources 2014–2021; admissions 2014–2020,65plus_female,149295,0.0874049519812843

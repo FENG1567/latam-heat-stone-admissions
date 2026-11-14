@@ -1,0 +1,4 @@
+country,cohort,outcome,unit_days_checked,registered_total,independent_header_projection_total,nonidentical_unit_days,maximum_absolute_count_difference
+MX,registered_complete_source_2015_2022,y_K80,93504,318331,318331,0,0.0
+MX,registered_complete_source_2015_2022,y_K81,93504,230020,230020,0,0.0
+MX,registered_complete_source_2015_2022,y_urinary,93504,70911,70911,0,0.0

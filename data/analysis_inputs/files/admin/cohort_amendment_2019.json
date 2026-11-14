@@ -1,0 +1,11 @@
+{
+  "decision_utc": "2026-11-12T13:27:48.084237+00:00",
+  "decision": "Amend the preferred Mexico primary cohort to include 2019 admission dates using all available SAEH-SSA EGRESOS source years, including the recovered 2019 file and late-2019 admission-date records in later source-year files.",
+  "effective_date_field": "INGRE",
+  "source_year_dimension": "Retain source_year in all complete-source outputs to distinguish discharge-file cohorts and avoid double counting.",
+  "original_gap_comparator": "Preserve the original 2015-2018 and 2020-2022 panel unchanged as the comparator; the amended complete-source series is a separate artifact.",
+  "study_event_date_window": "2015-01-01 through 2022-12-31 for the complete-source preferred series; 2019 controlled fill is a separate state-day extract from all source-year files.",
+  "effects_viewed_before_decision": false,
+  "basis": "The 2019 SAEH-SSA source was recovered and validated before any 2019 effect estimates were inspected; its cross-year admission dates are retained by INGRE year and source_year.",
+  "patient_level_outputs": false
+}

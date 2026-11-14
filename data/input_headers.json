@@ -1,0 +1,816 @@
+[
+  {
+    "target": "data/br_calendar.csv.gz",
+    "columns": [
+      "unit",
+      "date",
+      "tmean",
+      "tmax",
+      "population",
+      "y_K80",
+      "y_K81",
+      "y_urinary",
+      "y_sum3",
+      "E3",
+      "E7",
+      "E14",
+      "E21",
+      "Emax3",
+      "dow",
+      "month",
+      "year",
+      "country"
+    ]
+  },
+  {
+    "target": "data/br_moisture_calendar.csv.gz",
+    "columns": [
+      "unit",
+      "date",
+      "tmean",
+      "dew_mean",
+      "rh_mean",
+      "rh_magnus",
+      "dew3",
+      "rh3",
+      "rh_source3",
+      "temperature_valid_mass"
+    ]
+  },
+  {
+    "target": "data/mx_calendar.csv.gz",
+    "columns": [
+      "date",
+      "unit",
+      "tmean",
+      "tmax",
+      "population",
+      "y_K80",
+      "y_K81",
+      "y_urinary",
+      "y_sum3",
+      "E3",
+      "E7",
+      "E14",
+      "E21",
+      "Emax3",
+      "dow",
+      "month",
+      "year",
+      "country"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_long.csv.gz",
+    "columns": [
+      "source_role",
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_state_day.csv",
+    "columns": [
+      "source_role",
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_state_day_2015.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_state_day_2016.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_state_day_2017.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_state_day_2018.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_state_day_2019.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_state_day_2020.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_state_day_2021.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_state_day_2022.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_state_day_2023.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_year_2015.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_year_2016.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_year_2017.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_year_2018.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_year_2019.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_year_2020.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_year_2021.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_year_2022.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_clinical_year_2023.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_complete_source_2019_state_day.csv",
+    "columns": [
+      "source_role",
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_complete_source_by_source_year_state_day_2015_2022.csv.gz",
+    "columns": [
+      "source_year",
+      "source_role",
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_complete_source_correction_2019.csv.gz",
+    "columns": [
+      "source_year",
+      "source_role",
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_complete_source_correction_2020.csv.gz",
+    "columns": [
+      "source_year",
+      "source_role",
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_complete_source_correction_2021.csv.gz",
+    "columns": [
+      "source_year",
+      "source_role",
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_complete_source_corrections.csv.gz",
+    "columns": [
+      "source_year",
+      "source_role",
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_complete_source_long_2015_2022.csv.gz",
+    "columns": [
+      "source_year",
+      "source_role",
+      "state",
+      "date",
+      "endpoint",
+      "fullcode",
+      "age_group",
+      "sex",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_complete_source_state_day_2015_2022.csv",
+    "columns": [
+      "source_role",
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803"
+    ]
+  },
+  {
+    "target": "data/mx_moisture_calendar_2015_2022.csv.gz",
+    "columns": [
+      "unit",
+      "date",
+      "tmean",
+      "dew_mean",
+      "rh_mean",
+      "rh_magnus",
+      "dew3",
+      "rh3",
+      "temperature_valid_mass"
+    ]
+  },
+  {
+    "target": "data/mx_origin_all_origin_state_day_2015_2022.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic"
+    ]
+  },
+  {
+    "target": "data/mx_origin_grouped_2015_2023.csv.gz",
+    "columns": [
+      "state",
+      "date",
+      "dx3",
+      "origin_raw",
+      "origin_group",
+      "los_group",
+      "type_service",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_origin_source_year_2015.csv.gz",
+    "columns": [
+      "source_year",
+      "state",
+      "date",
+      "dx3",
+      "origin_raw",
+      "origin_group",
+      "los_group",
+      "type_service",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_origin_source_year_2016.csv.gz",
+    "columns": [
+      "source_year",
+      "state",
+      "date",
+      "dx3",
+      "origin_raw",
+      "origin_group",
+      "los_group",
+      "type_service",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_origin_source_year_2017.csv.gz",
+    "columns": [
+      "source_year",
+      "state",
+      "date",
+      "dx3",
+      "origin_raw",
+      "origin_group",
+      "los_group",
+      "type_service",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_origin_source_year_2018.csv.gz",
+    "columns": [
+      "source_year",
+      "state",
+      "date",
+      "dx3",
+      "origin_raw",
+      "origin_group",
+      "los_group",
+      "type_service",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_origin_source_year_2019.csv.gz",
+    "columns": [
+      "source_year",
+      "state",
+      "date",
+      "dx3",
+      "origin_raw",
+      "origin_group",
+      "los_group",
+      "type_service",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_origin_source_year_2020.csv.gz",
+    "columns": [
+      "source_year",
+      "state",
+      "date",
+      "dx3",
+      "origin_raw",
+      "origin_group",
+      "los_group",
+      "type_service",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_origin_source_year_2021.csv.gz",
+    "columns": [
+      "source_year",
+      "state",
+      "date",
+      "dx3",
+      "origin_raw",
+      "origin_group",
+      "los_group",
+      "type_service",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_origin_source_year_2022.csv.gz",
+    "columns": [
+      "source_year",
+      "state",
+      "date",
+      "dx3",
+      "origin_raw",
+      "origin_group",
+      "los_group",
+      "type_service",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_origin_source_year_2023.csv.gz",
+    "columns": [
+      "source_year",
+      "state",
+      "date",
+      "dx3",
+      "origin_raw",
+      "origin_group",
+      "los_group",
+      "type_service",
+      "n"
+    ]
+  },
+  {
+    "target": "data/mx_updated_2023_calendar.csv.gz",
+    "columns": [
+      "unit",
+      "date",
+      "tmean",
+      "E3",
+      "source_role",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "y_K80",
+      "y_K81",
+      "y_urinary",
+      "y_sum3",
+      "year",
+      "month",
+      "dow",
+      "country"
+    ]
+  },
+  {
+    "target": "data/mx_updated_calendar.csv.gz",
+    "columns": [
+      "unit",
+      "date",
+      "tmean",
+      "tmax",
+      "population",
+      "E3",
+      "E7",
+      "E14",
+      "E21",
+      "Emax3",
+      "dow",
+      "month",
+      "year",
+      "country",
+      "health_source_role",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "n20_n21_confirmed",
+      "k80_k800",
+      "k80_k803",
+      "k80_acute_k800_k803",
+      "y_K80",
+      "y_K81",
+      "y_urinary",
+      "y_sum3"
+    ]
+  },
+  {
+    "target": "data/mx_updated_controlled_2019_calendar.csv.gz",
+    "columns": [
+      "unit",
+      "date",
+      "tmean",
+      "tmax",
+      "population",
+      "E3",
+      "E7",
+      "E14",
+      "E21",
+      "Emax3",
+      "dow",
+      "month",
+      "year",
+      "country",
+      "y_K80",
+      "y_K81",
+      "y_urinary",
+      "y_sum3",
+      "k80",
+      "k81",
+      "n20_only",
+      "n21_only",
+      "n22_other_disease",
+      "n23_unspecified_renal_colic",
+      "source_role"
+    ]
+  },
+  {
+    "target": "data/mx_weather_2023.csv",
+    "columns": [
+      "state",
+      "year",
+      "month",
+      "day",
+      "tmean"
+    ]
+  },
+  {
+    "target": "results/brazil_clinical_aggregate_adm2014_2020_by_source_year.csv.gz",
+    "columns": [
+      "source_year",
+      "hrid",
+      "admission_date",
+      "diag_princ4",
+      "sexo_raw",
+      "age_group",
+      "car_int_raw",
+      "car_int_group",
+      "admission_records",
+      "unique_n_aih"
+    ]
+  },
+  {
+    "target": "results/brazil_clinical_aggregate_all_admission_years_by_source_year.csv.gz",
+    "columns": [
+      "source_year",
+      "hrid",
+      "admission_date",
+      "diag_princ4",
+      "sexo_raw",
+      "age_group",
+      "car_int_raw",
+      "car_int_group",
+      "admission_records",
+      "unique_n_aih"
+    ]
+  },
+  {
+    "target": "revision_20261113/data/mexico_followup/all_daily.csv.gz",
+    "columns": [
+      "source_year",
+      "discharge_year",
+      "state",
+      "date",
+      "endpoint",
+      "parser",
+      "n"
+    ]
+  },
+  {
+    "target": "revision_20261113/data/mexico_followup/all_duplicates.csv",
+    "columns": [
+      "source_year",
+      "discharge_year",
+      "state",
+      "date",
+      "endpoint",
+      "n"
+    ]
+  },
+  {
+    "target": "br_weather_bridge.csv",
+    "columns": [
+      "unit",
+      "date",
+      "tmean",
+      "tmax",
+      "population"
+    ]
+  },
+  {
+    "target": "external/geography/municipality_health_region_crosswalk.csv",
+    "columns": [
+      "municipality_sih6",
+      "ibge7",
+      "health_region_2023",
+      "crosswalk_version"
+    ]
+  }
+]

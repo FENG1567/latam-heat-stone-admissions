@@ -1,0 +1,3 @@
+# All released files are checksum-bound; preserve their exact bytes on every OS.
+# Do not let core.autocrlf normalize accepted CSVs, frozen Markdown or original source templates.
+* -text

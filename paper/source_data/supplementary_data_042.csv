@@ -1,0 +1,8 @@
+check,passed,value,evidence
+source_2023_rebuild_exact,true,0.0,a_source_2023_calendar_count_check.csv
+old_2023_fit_per_unit_reproduced,true,2.71960232112178e-12,a_baseline_reproduction_per_unit_check.csv
+old_2023_fit_pooled_reproduced,true,2.99760216648792e-14,a_baseline_reproduction_pooled_check.csv
+registered_primary_daily_identity_exact,true,0.0,b_primary_aggregate_reproduction_check.csv
+extended_2023_all_source_identity_exact,true,0.0,b_extension_aggregate_reproduction_check.csv
+registered_primary_fixed_targets_exact,true,1.03028696685215e-13,b_registered_primary_integrity_check.csv
+all_followup_fit_audits_converged_full_rank,true,fit audit scenarios=6,*_fit_audit.csv

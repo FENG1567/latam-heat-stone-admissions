@@ -1,0 +1,483 @@
+country,scenario,unit,standardization_status,standardization_failure,adult_status,adult_failure,hac14_pool_eligible,adult_fit_attempted,common_bridge_success
+brazil,processing sources 2014–2021; admissions 2014–2020,11001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=16;65plus_male/K80=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,11002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=14;65plus_male/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,11003,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,11004,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,11005,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,11006,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=9;45-64_male/K80=22;65plus_female/K80=7;65plus_female/N20_N23=22;65plus_male/K80=7;65plus_male/N20_N23=16,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,11007,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=20;45-64_female/N20_N23=15;45-64_male/K80=28;65plus_female/K80=12;65plus_female/N20_N23=3;65plus_male/K80=20;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,12001,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=18;18-44_male/K80=22;18-44_male/N20_N23=10;45-64_female/N20_N23=2;45-64_male/K80=17;45-64_male/N20_N23=12;65plus_female/K80=21;65plus_female/N20_N23=0;65plus_male/K80=12;65plus_male/N20_N23=2,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,12002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,12003,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=23;18-44_male/N20_N23=22;45-64_female/N20_N23=22;45-64_male/N20_N23=20;65plus_female/N20_N23=4;65plus_male/N20_N23=11,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,13001,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,13002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=7;65plus_male/N20_N23=10,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,13003,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=7;65plus_male/K80=28;65plus_male/N20_N23=23,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,13004,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=27;45-64_male/N20_N23=22;65plus_female/N20_N23=11;65plus_male/K80=17;65plus_male/N20_N23=11,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,13005,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=13,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,13006,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=22;45-64_female/N20_N23=8;45-64_male/K80=19;45-64_male/N20_N23=15;65plus_female/K80=17;65plus_female/N20_N23=5;65plus_male/K80=11;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,13007,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=20;18-44_male/K80=12;18-44_male/N20_N23=18;45-64_female/N20_N23=11;45-64_male/K80=18;45-64_male/N20_N23=8;65plus_female/K80=8;65plus_female/N20_N23=5;65plus_male/K80=8;65plus_male/N20_N23=5,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,13008,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=22;45-64_male/N20_N23=28;65plus_female/N20_N23=6;65plus_male/N20_N23=11,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,13009,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=11;45-64_male/N20_N23=29;65plus_female/N20_N23=2;65plus_male/N20_N23=13,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,14001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=20;65plus_male/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,14002,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=28;18-44_male/K80=24;18-44_male/N20_N23=27;45-64_female/N20_N23=7;45-64_male/K80=24;45-64_male/N20_N23=12;65plus_female/K80=11;65plus_female/N20_N23=0;65plus_male/K80=9;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,15001,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,15002,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,15003,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,15004,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=10;65plus_male/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,15006,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,15007,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=18,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,15008,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,15009,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=7,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,15010,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=18;65plus_female/N20_N23=17;65plus_male/K80=12;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,15011,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,15012,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,15013,failed,fewer than 30 cases in required stratum(s): 45-64_male/K80=25;65plus_male/K80=13;65plus_male/N20_N23=19,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,15014,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=16;65plus_male/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,16001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=8,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,16002,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=7;18-44_male/K80=10;18-44_male/N20_N23=8;45-64_female/N20_N23=4;45-64_male/K80=12;45-64_male/N20_N23=5;65plus_female/K80=11;65plus_female/N20_N23=0;65plus_male/K80=2;65plus_male/N20_N23=1,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,16003,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=22;65plus_female/N20_N23=8;65plus_male/N20_N23=13,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,17001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=18,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,17002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=4;65plus_male/N20_N23=16,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,17003,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=21;18-44_male/N20_N23=28;45-64_female/N20_N23=10;45-64_male/K80=21;45-64_male/N20_N23=24;65plus_female/N20_N23=0;65plus_male/K80=17;65plus_male/N20_N23=2,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,17004,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=15;65plus_male/N20_N23=22,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,17005,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=15;65plus_male/N20_N23=28,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,17006,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=11;65plus_male/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,17007,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=16;65plus_female/N20_N23=6;65plus_male/N20_N23=13,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,17008,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=27;65plus_female/N20_N23=12,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=23;65plus_male/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21002,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,21003,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21004,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=19,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21005,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,21006,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=19,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21007,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=14;65plus_male/N20_N23=20,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21008,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,21009,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21010,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,21011,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21012,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,21013,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21014,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,21015,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,21016,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,21017,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=25;65plus_female/N20_N23=15;65plus_male/N20_N23=12,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21018,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=12;65plus_male/K80=23;65plus_male/N20_N23=22,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,21019,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,22001,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=23;65plus_female/N20_N23=7;65plus_male/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,22002,failed,fewer than 30 cases in required stratum(s): 45-64_male/K80=29;65plus_female/N20_N23=15;65plus_male/K80=19;65plus_male/N20_N23=21,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,22003,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,22004,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,22005,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,22006,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=25;65plus_female/N20_N23=14;65plus_male/K80=21;65plus_male/N20_N23=23,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,22007,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=6;45-64_female/N20_N23=17;45-64_male/K80=6;65plus_female/K80=14;65plus_female/N20_N23=3;65plus_male/K80=7;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,22008,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=20;18-44_male/N20_N23=27;45-64_female/N20_N23=15;45-64_male/K80=22;45-64_male/N20_N23=23;65plus_female/N20_N23=3;65plus_male/K80=12;65plus_male/N20_N23=10,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,22009,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,22010,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=22;45-64_male/N20_N23=28;65plus_female/N20_N23=7;65plus_male/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,22011,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=23;65plus_female/N20_N23=16;65plus_male/K80=19;65plus_male/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23001,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,23002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=23,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23003,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23004,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=24;45-64_male/N20_N23=23;65plus_female/N20_N23=1;65plus_male/N20_N23=7,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23005,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=23;65plus_male/N20_N23=26,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23006,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=15;65plus_male/N20_N23=20,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23007,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=13;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23008,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=16,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23009,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=28,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23010,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23011,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,23012,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=18;65plus_female/N20_N23=9;65plus_male/K80=29;65plus_male/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23013,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=11;65plus_male/N20_N23=19,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23014,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,23015,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,23016,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=22;45-64_male/K80=16;65plus_female/K80=26;65plus_male/K80=14,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23017,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=23;65plus_male/N20_N23=22,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23018,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23019,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,23020,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,23021,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,23022,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=7,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,24001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=7;65plus_male/N20_N23=14,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,24002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=8;65plus_male/N20_N23=18,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,24003,failed,fewer than 30 cases in required stratum(s): 18-44_male/N20_N23=27;65plus_female/N20_N23=10;65plus_male/N20_N23=21,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,24004,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,24005,failed,fewer than 30 cases in required stratum(s): 18-44_male/N20_N23=29;45-64_female/N20_N23=19;45-64_male/N20_N23=20;65plus_female/N20_N23=10;65plus_male/N20_N23=19,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,24006,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,24007,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,24008,failed,fewer than 30 cases in required stratum(s): 18-44_male/N20_N23=18;45-64_female/N20_N23=17;45-64_male/N20_N23=25;65plus_female/N20_N23=11;65plus_male/K80=24;65plus_male/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25001,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,25002,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=27;65plus_female/N20_N23=27;65plus_male/N20_N23=26,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25003,failed,fewer than 30 cases in required stratum(s): 18-44_male/N20_N23=23;45-64_female/N20_N23=15;45-64_male/N20_N23=15;65plus_female/N20_N23=4;65plus_male/N20_N23=12,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25004,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=24;45-64_male/N20_N23=17;65plus_female/N20_N23=5;65plus_male/N20_N23=4,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25005,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=20;65plus_female/N20_N23=13;65plus_male/N20_N23=11,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25006,failed,fewer than 30 cases in required stratum(s): 18-44_male/N20_N23=26;45-64_female/N20_N23=13;45-64_male/N20_N23=17;65plus_female/N20_N23=0;65plus_male/K80=26;65plus_male/N20_N23=7,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25007,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=26;18-44_male/K80=29;18-44_male/N20_N23=19;45-64_female/N20_N23=11;45-64_male/N20_N23=24;65plus_female/K80=25;65plus_female/N20_N23=7;65plus_male/K80=16;65plus_male/N20_N23=5,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25008,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=14;65plus_male/K80=19;65plus_male/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25009,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=19;65plus_male/N20_N23=19,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25010,failed,fewer than 30 cases in required stratum(s): 18-44_female/K80=24;18-44_female/N20_N23=25;18-44_male/K80=8;18-44_male/N20_N23=25;45-64_female/K80=23;45-64_female/N20_N23=22;45-64_male/K80=9;45-64_male/N20_N23=19;65plus_female/K80=6;65plus_female/N20_N23=7;65plus_male/K80=4;65plus_male/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25011,failed,fewer than 30 cases in required stratum(s): 18-44_female/K80=20;18-44_female/N20_N23=9;18-44_male/K80=5;18-44_male/N20_N23=8;45-64_female/K80=16;45-64_female/N20_N23=3;45-64_male/K80=2;45-64_male/N20_N23=9;65plus_female/K80=8;65plus_female/N20_N23=0;65plus_male/K80=4;65plus_male/N20_N23=1,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25012,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=11;18-44_male/N20_N23=13;45-64_female/N20_N23=13;45-64_male/N20_N23=13;65plus_female/N20_N23=7;65plus_male/N20_N23=7,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25013,failed,fewer than 30 cases in required stratum(s): 18-44_male/N20_N23=23;45-64_female/N20_N23=13;45-64_male/N20_N23=20;65plus_female/N20_N23=1;65plus_male/N20_N23=10,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25014,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=15;18-44_male/N20_N23=8;45-64_female/N20_N23=11;45-64_male/N20_N23=13;65plus_female/N20_N23=0;65plus_male/K80=21;65plus_male/N20_N23=5,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25015,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=18;18-44_male/N20_N23=22;45-64_female/N20_N23=11;45-64_male/N20_N23=16;65plus_female/N20_N23=6;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,25016,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,26001,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,26002,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,26003,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,26004,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=14;65plus_male/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,26005,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=14,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,26006,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=22,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,26007,failed,fewer than 30 cases in required stratum(s): 45-64_male/N20_N23=28;65plus_female/N20_N23=21;65plus_male/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,26008,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,26009,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=28;65plus_female/N20_N23=6;65plus_male/N20_N23=5,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,26010,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,26011,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=17;45-64_male/N20_N23=19;65plus_female/N20_N23=6;65plus_male/N20_N23=10,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,26012,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=16;65plus_male/N20_N23=18,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,27001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,27002,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=29;18-44_male/N20_N23=24;45-64_female/N20_N23=13;45-64_male/N20_N23=17;65plus_female/N20_N23=4;65plus_male/K80=18;65plus_male/N20_N23=2,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,27003,failed,fewer than 30 cases in required stratum(s): 18-44_male/N20_N23=27;45-64_female/N20_N23=26;45-64_male/N20_N23=27;65plus_female/N20_N23=4;65plus_male/N20_N23=7,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,27004,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=23;18-44_male/N20_N23=28;45-64_female/N20_N23=18;45-64_male/N20_N23=24;65plus_female/N20_N23=3;65plus_male/K80=23;65plus_male/N20_N23=4,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,27005,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=14;65plus_male/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,27006,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=13;65plus_male/K80=26;65plus_male/N20_N23=18,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,27007,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=18;65plus_male/N20_N23=20,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,27008,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=10;65plus_male/N20_N23=16,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,27009,failed,fewer than 30 cases in required stratum(s): 18-44_male/N20_N23=18;45-64_female/N20_N23=10;45-64_male/N20_N23=29;65plus_female/N20_N23=3;65plus_male/N20_N23=14,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,27010,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=16;45-64_male/N20_N23=25;65plus_female/N20_N23=5;65plus_male/K80=27;65plus_male/N20_N23=3,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,28001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17;65plus_male/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,28002,failed,fewer than 30 cases in required stratum(s): 45-64_male/N20_N23=20;65plus_female/N20_N23=4;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,28003,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=20;18-44_male/N20_N23=20;45-64_female/N20_N23=16;45-64_male/N20_N23=11;65plus_female/N20_N23=2;65plus_male/N20_N23=3,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,28004,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=22;45-64_female/N20_N23=19;45-64_male/N20_N23=20;65plus_female/N20_N23=1;65plus_male/N20_N23=10,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,28005,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=10;18-44_male/N20_N23=12;45-64_female/N20_N23=3;45-64_male/N20_N23=4;65plus_female/N20_N23=0;65plus_male/K80=21;65plus_male/N20_N23=2,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,28006,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=27;65plus_female/N20_N23=10;65plus_male/N20_N23=13,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,28007,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=12;18-44_male/N20_N23=17;45-64_female/N20_N23=13;45-64_male/N20_N23=12;65plus_female/N20_N23=2;65plus_male/N20_N23=5,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=11;65plus_male/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=22;65plus_male/N20_N23=28,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29003,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,29004,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=21,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29005,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=4;65plus_male/N20_N23=21,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29006,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,29007,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,29008,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=15;65plus_male/K80=16;65plus_male/N20_N23=13,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29009,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=6;65plus_male/N20_N23=11,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29010,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=15;65plus_male/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29011,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=8;65plus_male/N20_N23=22,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29012,failed,fewer than 30 cases in required stratum(s): 45-64_male/N20_N23=24;65plus_female/N20_N23=8,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29013,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=12,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29014,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,29015,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,29016,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=21;65plus_male/N20_N23=23,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29017,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=28;18-44_male/N20_N23=29;45-64_female/N20_N23=25;65plus_female/N20_N23=4;65plus_male/K80=23;65plus_male/N20_N23=8,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29018,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=25;65plus_female/N20_N23=6;65plus_male/N20_N23=12,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29019,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,29020,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,29021,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,29022,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29023,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=18;65plus_male/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29024,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=8;65plus_male/N20_N23=11,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29025,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,29026,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=29;65plus_female/N20_N23=13;65plus_male/N20_N23=11,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29027,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=27;65plus_female/N20_N23=3;65plus_male/N20_N23=12,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,29028,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=19;65plus_male/N20_N23=10,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31001,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=18;65plus_male/N20_N23=26,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31003,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31004,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31006,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=28,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31007,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31008,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31009,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=22;65plus_female/N20_N23=16;65plus_male/K80=21;65plus_male/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31010,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31011,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=11,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31012,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=8;65plus_male/N20_N23=26,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31013,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=13;65plus_male/N20_N23=21,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31015,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31016,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31017,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31018,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31019,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=19,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31020,failed,fewer than 30 cases in required stratum(s): 65plus_male/K80=22,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31021,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31022,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=9;65plus_male/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31023,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31024,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31025,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=28,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31026,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=15;65plus_male/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31027,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=27;65plus_female/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31028,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=13;65plus_male/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31030,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=7;65plus_male/N20_N23=21,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31031,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=12;65plus_male/N20_N23=21,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31032,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=12;65plus_male/K80=29;65plus_male/N20_N23=20,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31034,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=28;65plus_female/N20_N23=12;65plus_male/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31035,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=24;65plus_male/N20_N23=26,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31036,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=16,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31037,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31038,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=24;65plus_female/N20_N23=9;65plus_male/K80=28;65plus_male/N20_N23=11,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31040,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31041,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=27;65plus_female/N20_N23=19;65plus_male/K80=15;65plus_male/N20_N23=22,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31042,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=8;65plus_male/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31044,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31045,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31046,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=22;65plus_female/N20_N23=17;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31047,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=26;65plus_male/N20_N23=26,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31048,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31049,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=27;65plus_female/N20_N23=5;65plus_male/N20_N23=12,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31050,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=11;18-44_male/K80=12;18-44_male/N20_N23=8;45-64_female/N20_N23=10;45-64_male/K80=10;45-64_male/N20_N23=20;65plus_female/K80=18;65plus_female/N20_N23=2;65plus_male/K80=14;65plus_male/N20_N23=1,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31051,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=22;45-64_female/N20_N23=13;45-64_male/K80=29;45-64_male/N20_N23=19;65plus_female/N20_N23=7;65plus_male/K80=15;65plus_male/N20_N23=3,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31052,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31053,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=12;18-44_male/K80=17;18-44_male/N20_N23=11;45-64_female/N20_N23=13;45-64_male/K80=24;45-64_male/N20_N23=14;65plus_female/N20_N23=3;65plus_male/K80=18;65plus_male/N20_N23=8,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31055,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=12;65plus_male/N20_N23=28,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31057,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=22;65plus_male/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31058,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=4;65plus_male/N20_N23=21,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31059,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17;65plus_male/N20_N23=18,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31060,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31061,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=26;65plus_female/K80=29;65plus_female/N20_N23=13;65plus_male/K80=26;65plus_male/N20_N23=19,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31062,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=7;18-44_male/K80=8;18-44_male/N20_N23=4;45-64_female/N20_N23=2;45-64_male/K80=11;45-64_male/N20_N23=7;65plus_female/K80=26;65plus_female/N20_N23=2;65plus_male/K80=8;65plus_male/N20_N23=2,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31064,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=20;18-44_male/N20_N23=14;45-64_female/N20_N23=15;45-64_male/N20_N23=18;65plus_female/N20_N23=3;65plus_male/K80=16;65plus_male/N20_N23=2,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31065,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=22;18-44_male/K80=28;18-44_male/N20_N23=25;45-64_female/N20_N23=9;45-64_male/N20_N23=8;65plus_female/N20_N23=2;65plus_male/K80=21;65plus_male/N20_N23=8,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31066,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=27;18-44_male/K80=20;45-64_female/N20_N23=17;45-64_male/K80=17;45-64_male/N20_N23=15;65plus_female/N20_N23=3;65plus_male/K80=19;65plus_male/N20_N23=10,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31067,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=13;18-44_male/K80=19;18-44_male/N20_N23=16;45-64_female/N20_N23=4;45-64_male/K80=19;45-64_male/N20_N23=11;65plus_female/N20_N23=2;65plus_male/K80=13;65plus_male/N20_N23=4,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31068,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=7;18-44_male/K80=21;18-44_male/N20_N23=11;45-64_female/N20_N23=10;45-64_male/K80=20;45-64_male/N20_N23=6;65plus_female/N20_N23=2;65plus_male/K80=18;65plus_male/N20_N23=2,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31070,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31071,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31072,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31073,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31074,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31075,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31076,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=14;18-44_male/K80=19;45-64_female/N20_N23=10;45-64_male/K80=11;45-64_male/N20_N23=17;65plus_female/N20_N23=2;65plus_male/K80=8;65plus_male/N20_N23=10,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31077,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=22;18-44_male/K80=26;18-44_male/N20_N23=14;45-64_female/N20_N23=16;45-64_male/K80=28;45-64_male/N20_N23=16;65plus_female/K80=22;65plus_female/N20_N23=3;65plus_male/K80=12;65plus_male/N20_N23=3,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31078,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=22;65plus_male/N20_N23=12,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31079,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=22;65plus_male/K80=28,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31080,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=14;18-44_male/K80=8;18-44_male/N20_N23=7;45-64_female/N20_N23=4;45-64_male/K80=11;45-64_male/N20_N23=13;65plus_female/K80=13;65plus_female/N20_N23=1;65plus_male/K80=8;65plus_male/N20_N23=1,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31081,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=9;18-44_male/K80=5;18-44_male/N20_N23=3;45-64_female/N20_N23=5;45-64_male/K80=13;45-64_male/N20_N23=10;65plus_female/K80=19;65plus_female/N20_N23=0;65plus_male/K80=10;65plus_male/N20_N23=0,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31082,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=28;45-64_female/N20_N23=18;45-64_male/N20_N23=29;65plus_female/N20_N23=3;65plus_male/N20_N23=6,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31083,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=18;18-44_male/N20_N23=14;45-64_female/N20_N23=14;45-64_male/N20_N23=10;65plus_female/N20_N23=2;65plus_male/N20_N23=4,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31084,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=18,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31085,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=13;65plus_male/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31086,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31087,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=11;65plus_male/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31088,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=11;65plus_male/N20_N23=21,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31089,failed,fewer than 30 cases in required stratum(s): 18-44_male/N20_N23=23;45-64_female/N20_N23=24;65plus_female/N20_N23=9;65plus_male/N20_N23=10,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31090,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=29;45-64_female/N20_N23=28;65plus_female/N20_N23=13;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31091,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=26;65plus_female/N20_N23=13;65plus_male/K80=21;65plus_male/N20_N23=28,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31092,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31093,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=26;65plus_female/N20_N23=13;65plus_male/N20_N23=28,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31094,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=25;65plus_female/N20_N23=10;65plus_male/N20_N23=15,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31095,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=13;18-44_male/N20_N23=22;45-64_female/N20_N23=7;45-64_male/N20_N23=14;65plus_female/N20_N23=3;65plus_male/K80=19;65plus_male/N20_N23=3,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31096,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=23;18-44_male/N20_N23=12;45-64_female/N20_N23=5;45-64_male/K80=29;45-64_male/N20_N23=13;65plus_female/N20_N23=1;65plus_male/K80=23;65plus_male/N20_N23=6,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31097,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,31098,failed,fewer than 30 cases in required stratum(s): 45-64_female/N20_N23=25;65plus_female/N20_N23=9;65plus_male/N20_N23=4,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,31099,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=21;65plus_male/N20_N23=20,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,32002,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,32004,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,32005,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,33001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=16,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,33002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,33003,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,33004,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,33005,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,33006,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,33007,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,33008,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,33009,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35011,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35012,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35013,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35014,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35015,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35016,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35021,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35022,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35023,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35031,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35032,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35033,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35034,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35041,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35051,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35052,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=29;65plus_female/N20_N23=14;65plus_male/N20_N23=26,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,35061,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35062,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35063,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35064,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35065,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35071,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35072,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35073,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35074,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=23,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,35081,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35082,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35083,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35091,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=20,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,35092,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35093,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35094,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35095,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35101,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35102,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35103,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35104,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=19;45-64_male/K80=26;65plus_female/N20_N23=20;65plus_male/K80=23;65plus_male/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,35111,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35112,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35113,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=14;65plus_male/N20_N23=23,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,35114,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35115,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35121,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35131,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35132,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35133,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35141,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35142,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35143,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35151,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35152,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35153,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35154,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35155,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35156,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35157,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35161,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35162,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35163,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35171,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35172,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35173,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,35174,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,41002,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41003,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41004,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=23;65plus_male/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,41005,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41006,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=28,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,41007,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41008,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41009,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41010,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41011,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41012,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41013,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41014,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41015,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41016,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41017,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41018,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41019,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41020,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,41021,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=26,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,41022,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42001,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42002,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42003,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42004,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42005,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=20,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,42006,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42007,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42008,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42009,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42010,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42011,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42012,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42013,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42014,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42015,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42016,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,42017,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43001,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=20,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,43003,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43004,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,43005,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=19,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,43006,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=20,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,43007,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43008,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43009,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43010,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43011,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43012,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=12,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,43013,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43014,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43015,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43016,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43017,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43018,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,43019,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=14,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,43020,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43021,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43022,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=20;65plus_male/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,43023,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43024,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=6;65plus_male/N20_N23=22,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,43025,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43026,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=23,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,43027,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43028,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43029,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,43030,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=22,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,50001,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,50002,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=7;65plus_male/N20_N23=13,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,50003,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,50004,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,51001,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=8;65plus_male/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51002,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,51003,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=8;18-44_male/K80=20;18-44_male/N20_N23=13;45-64_female/N20_N23=7;45-64_male/K80=17;45-64_male/N20_N23=6;65plus_female/K80=10;65plus_female/N20_N23=0;65plus_male/K80=9;65plus_male/N20_N23=6,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51004,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=24;18-44_male/N20_N23=21;45-64_female/N20_N23=14;45-64_male/K80=22;45-64_male/N20_N23=12;65plus_female/K80=27;65plus_female/N20_N23=8;65plus_male/K80=17;65plus_male/N20_N23=9,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51005,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=26;65plus_female/N20_N23=25;65plus_male/K80=23,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51006,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=27;45-64_male/K80=26;65plus_female/K80=23;65plus_female/N20_N23=9;65plus_male/K80=29;65plus_male/N20_N23=24,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51007,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=5;65plus_male/N20_N23=23,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51008,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=23;45-64_male/K80=27;65plus_female/K80=10;65plus_female/N20_N23=4;65plus_male/K80=10;65plus_male/N20_N23=16,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51009,failed,fewer than 30 cases in required stratum(s): 18-44_female/K80=16;18-44_female/N20_N23=3;18-44_male/K80=3;18-44_male/N20_N23=2;45-64_female/K80=9;45-64_female/N20_N23=1;45-64_male/K80=4;45-64_male/N20_N23=1;65plus_female/K80=3;65plus_female/N20_N23=0;65plus_male/K80=4;65plus_male/N20_N23=2,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51010,failed,fewer than 30 cases in required stratum(s): 18-44_male/N20_N23=22;45-64_female/N20_N23=20;45-64_male/N20_N23=17;65plus_female/N20_N23=5;65plus_male/N20_N23=7,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51011,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,51012,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51013,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,51014,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,51015,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=9;45-64_male/K80=23;65plus_female/K80=21;65plus_female/N20_N23=7;65plus_male/K80=13;65plus_male/N20_N23=18,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,51016,failed,fewer than 30 cases in required stratum(s): 18-44_male/K80=17;45-64_female/N20_N23=22;45-64_male/K80=20;45-64_male/N20_N23=29;65plus_female/K80=23;65plus_female/N20_N23=1;65plus_male/K80=11;65plus_male/N20_N23=5,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,52001,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52002,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52003,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=8;65plus_male/N20_N23=17,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,52004,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,52005,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52006,failed,fewer than 30 cases in required stratum(s): 18-44_female/N20_N23=13;18-44_male/K80=12;18-44_male/N20_N23=17;45-64_female/N20_N23=8;45-64_male/K80=15;45-64_male/N20_N23=12;65plus_female/K80=7;65plus_female/N20_N23=3;65plus_male/K80=9;65plus_male/N20_N23=3,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,52007,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17;65plus_male/K80=17;65plus_male/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+brazil,processing sources 2014–2021; admissions 2014–2020,52008,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52009,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52010,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52011,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52012,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52013,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52014,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52015,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52016,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52017,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,52018,success,,ok,,TRUE,TRUE,TRUE
+brazil,processing sources 2014–2021; admissions 2014–2020,53001,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,1,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,10,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,11,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,12,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,13,failed,quasi-Poisson model did not converge (rank 33/33); warnings: glm.fit: algorithm did not converge,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,14,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,15,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,16,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,17,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=20,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,18,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=10;65plus_male/N20_N23=22,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,19,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,2,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=8;65plus_male/N20_N23=22,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,20,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,21,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,22,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=29,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,23,failed,quasi-Poisson model did not converge (rank 33/33); warnings: glm.fit: algorithm did not converge,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,24,failed,quasi-Poisson model did not converge (rank 33/33); warnings: glm.fit: algorithm did not converge,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,25,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,26,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=25,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,27,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,28,failed,working Hessian inversion failed: system is computationally singular: reciprocal condition number = 9.53507e-18,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,29,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=20;65plus_male/N20_N23=19,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,3,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=3;65plus_male/N20_N23=18,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,30,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,31,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,32,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,4,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=27,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,5,failed,fewer than 30 cases in required stratum(s): 65plus_female/N20_N23=17;65plus_male/N20_N23=26,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,6,failed,fewer than 30 cases in required stratum(s): 45-64_male/N20_N23=21;65plus_female/N20_N23=11;65plus_male/N20_N23=26,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,7,success,,ok,,TRUE,TRUE,TRUE
+mexico,Mexico 2015–2022 primary cohort,8,failed,working Hessian inversion failed: system is computationally singular: reciprocal condition number = 1.76209e-17,not_attempted,,FALSE,FALSE,FALSE
+mexico,Mexico 2015–2022 primary cohort,9,failed,quasi-Poisson model did not converge (rank 33/33); warnings: glm.fit: algorithm did not converge,not_attempted,,FALSE,FALSE,FALSE

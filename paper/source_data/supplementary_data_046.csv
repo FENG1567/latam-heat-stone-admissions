@@ -1,0 +1,11 @@
+source_year,source_records,accepted_records,target_records,target_invalid_admission_date,target_invalid_discharge_date,target_invalid_state,target_negative_stay,target_records_with_blank_trailing_fields,target_exact_full_row_repeat_extra,target_nonid_candidate_repeat_extra,over_width_records,records_with_blank_trailing_fields,nonempty_extra_field_records,nonempty_extra_potential_target_records,blank_records,under_width_records
+2015,2970812,2970812,94563,0,0,72,0,0,0,92,0.0,0.0,0.0,0.0,0.0,0.0
+2016,2953110,2953109,94442,0,0,90,0,35034,0,71,1123354.0,1121319.0,2035.0,22.0,1.0,0.0
+2017,2729341,2729341,87700,226,0,246,1,0,0,372,0.0,0.0,0.0,0.0,0.0,0.0
+2018,2623382,2623379,84638,0,0,303,1,0,0,63,0.0,0.0,0.0,0.0,3.0,0.0
+2019,2629434,2629434,86166,0,0,192,0,0,0,73,0.0,0.0,0.0,0.0,0.0,0.0
+2020,1937344,1937344,40418,0,0,154,3,0,0,19,0.0,0.0,0.0,0.0,0.0,0.0
+2021,2088782,2088780,54190,0,0,729,0,0,0,19,0.0,0.0,0.0,0.0,2.0,1.0
+2022,2479897,2479897,81102,0,0,1144,0,0,0,31,0.0,0.0,0.0,0.0,0.0,0.0
+2023,2591278,2591278,86769,0,0,2353,0,0,0,16,0.0,0.0,0.0,0.0,0.0,0.0
+2024,2649236,2649236,89895,0,0,1835,0,0,0,59,0.0,0.0,0.0,0.0,0.0,0.0

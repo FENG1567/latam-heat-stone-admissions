@@ -1,0 +1,39 @@
+{
+  "status": "exact_identity_verified",
+  "conclusion": "The original selected-column extractor retained tail-field records. The initial missing-case hypothesis is withdrawn; primary counts and all existing fit caches remain valid.",
+  "source_aggregate_sha256": "9a0cfc6efe6855e10b821060c95ac3bb3ea1533254d8c22656cf236c4abb0a5a",
+  "registered_calendar_sha256": "7450be40e4de64dd4b7c31fd570df5b71b07b8da59a4adc8504470520f46b0ac",
+  "audit_sha256": "256f9137e4247c3a350adb8c3a99a113cab32b4ed3d6be4618c9b5016fb8ec4f",
+  "rows": [
+    {
+      "country": "MX",
+      "cohort": "registered_complete_source_2015_2022",
+      "outcome": "y_K80",
+      "unit_days_checked": 93504,
+      "registered_total": 318331,
+      "independent_header_projection_total": 318331,
+      "nonidentical_unit_days": 0,
+      "maximum_absolute_count_difference": 0.0
+    },
+    {
+      "country": "MX",
+      "cohort": "registered_complete_source_2015_2022",
+      "outcome": "y_K81",
+      "unit_days_checked": 93504,
+      "registered_total": 230020,
+      "independent_header_projection_total": 230020,
+      "nonidentical_unit_days": 0,
+      "maximum_absolute_count_difference": 0.0
+    },
+    {
+      "country": "MX",
+      "cohort": "registered_complete_source_2015_2022",
+      "outcome": "y_urinary",
+      "unit_days_checked": 93504,
+      "registered_total": 70911,
+      "independent_header_projection_total": 70911,
+      "nonidentical_unit_days": 0,
+      "maximum_absolute_count_difference": 0.0
+    }
+  ]
+}

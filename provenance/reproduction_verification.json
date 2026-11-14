@@ -1,0 +1,20 @@
+{
+  "candidate": "SRR-20261114-final",
+  "code_package_version": "1.0.0",
+  "date": "2026-11-14",
+  "clean_python_dependency_install": "passed",
+  "final_repo_frozen_publication": "passed",
+  "main_table_numeric_cells_match_final_paper": true,
+  "R_source_parse_files": 33,
+  "R_source_parse_failures": 0,
+  "aggregate_input_restore_count": 62,
+  "aggregate_input_restore": "verified byte-identical before model smoke",
+  "core_primary_R_preflight": "passed",
+  "complete_Mexico_R_preflight": "passed",
+  "one_state_Mexico_model_smoke": "passed",
+  "full_national_fresh_refit": "not performed",
+  "raw_source_download_to_paper": "not claimed",
+  "manual_modules": "See config/module_manifest.json",
+  "figure_pixel_identity": "not required; fonts can differ",
+  "credentials_or_raw_patient_rows": "not included; schema and signature scan performed"
+}

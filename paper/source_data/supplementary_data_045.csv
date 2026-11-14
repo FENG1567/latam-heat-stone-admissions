@@ -1,0 +1,13 @@
+country,scope,metric,value
+BR,existing selected-source duplicate authorization audit,exact_duplicate_full_row_signature_groups,0
+BR,existing selected-source duplicate authorization audit,extra_selected_rows_beyond_one_per_n_aih,2
+BR,existing selected-source duplicate authorization audit,extra_selected_rows_that_are_exact_full_row_duplicates,0
+BR,existing selected-source duplicate authorization audit,n_aih_type_column_available,False
+BR,existing selected-source duplicate authorization audit,n_aih_with_multiple_selected_rows,2
+BR,existing selected-source duplicate authorization audit,repeated_n_aih_across_source_files,2
+BR,existing selected-source duplicate authorization audit,repeated_n_aih_across_source_years,0
+BR,existing selected-source duplicate authorization audit,repeated_n_aih_same_date_same_diag4_only,2
+BR,existing selected-source duplicate authorization audit,repeated_n_aih_with_multiple_admission_dates,0
+BR,existing selected-source duplicate authorization audit,repeated_n_aih_with_multiple_diag4,0
+BR,existing selected-source duplicate authorization audit,repeated_n_aih_with_multiple_full_row_signatures,2
+BR,existing selected-source duplicate authorization audit,unique_nonmissing_n_aih,2609460

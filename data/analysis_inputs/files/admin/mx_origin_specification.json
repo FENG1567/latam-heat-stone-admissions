@@ -1,0 +1,65 @@
+{
+  "specification_status": "locked_before_origin_outcome_extraction_and_effect_estimation",
+  "locked_utc": "2026-11-12",
+  "question": "Among Mexico resident-state SAEH admissions for gallstone (K80) versus broad urinary stone/renal colic (N20-N23) diagnoses, does the E3 association differ between ED-origin and outpatient-consultation-origin records?",
+  "interpretation": {
+    "raw_field": "PROCED",
+    "field_role": "admission origin/procedencia of admission, not a surgical procedure code",
+    "codebook_source": "DGIS/SAEH 2019 catalog bundle, Catalogos Egresos 2019/CATPROCEDENCIA.csv",
+    "codebook_source_sha256": "f631223e61b5dec47fd0651249877fa2da3ff25aacb6f40576571252c85dd3b7",
+    "official_guide": "DGIS SAEH Guía de Intercambio de Información, version 2.2 (2014), https://riisp.insp.mx/nada/files_nesstar/SAEH_SSA/Referencias/NOTAS_TECNICAS/GII-B002-SAEH-02-02.pdf",
+    "origin_codes": {
+      "1": "outpatient_consultation_origin",
+      "2": "emergency_department_origin (catalog label: URGENCIAS)",
+      "3": "referred_origin",
+      "4": "other_origin",
+      "6": "pathological_nursery_origin",
+      "9": "unspecified_origin"
+    },
+    "extrapolation": "The only annual origin catalog located in the local Mexico_DGIS archive is the 2019 bundle. Its field definition/code labels are applied to raw PROCED in source years 2015-2023; this stable-definition extrapolation is an explicit limitation and all raw code frequencies, including unrecognized and missing values, will be audited by source year.",
+    "analysis_classes": {
+      "ED_origin": "exact catalog code 2 only",
+      "outpatient_consultation_origin": "exact catalog code 1 only",
+      "all_other_codes": "retained separately; never classified as elective",
+      "unknown": "blank and unrecognized values retained in grouped source output and audit"
+    },
+    "acute_presentation_limit": "PROCED=2 is an ED-origin/acute-presentation proxy. It does not prove symptom onset, disease acuity, triage severity, or the causal mechanism of admission.",
+    "TIPSERV": "Type of service at admission. Retain the raw code; it is not an urgency/elective classifier.",
+    "DIAS_ESTA": "Recorded length of stay. Group as 0, 1-30, >30, or unknown; the sensitivity is described only as records with a recorded inpatient stay of 1-30 days, not as hospital certification."
+  },
+  "cohort": {
+    "source_years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+    "event_date_field": "INGRE",
+    "retained_event_dates": "All valid admission dates in 2015-2023 across the nine source-year files, including cross-source late prior admissions from source year 2023.",
+    "primary_inference_years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+    "state_field": "ENTIDAD (state of habitual residence)",
+    "state_codes": "01-32",
+    "diagnoses": ["K80", "K81", "N20", "N21", "N22", "N23"],
+    "patient_level_output": false,
+    "primary_model_offset": "none"
+  },
+  "primary_model": {
+    "four_endpoints": ["K80_ED_origin", "N20_N23_ED_origin", "K80_outpatient_consultation_origin", "N20_N23_outpatient_consultation_origin"],
+    "weather_exposure": "precomputed daily E3",
+    "calendar": "separate full 2015-2022 daily calendar for each resident state; one all-origin common E3 spline basis and P95/median reference per state over that full eligible period",
+    "fit": "stacked endpoint-specific quasi-Poisson with separate disease-specific nuisance terms, no population offset",
+    "covariance": "calendar-date HAC with Bartlett lag 14 days",
+    "primary_contrast": "logRRR_ED_origin minus logRRR_outpatient_consultation_origin for (N20-N23 versus K80); report exponentiated contrast and 95% HAC interval",
+    "interaction_test": "joint 3-df Wald test for the difference-in-difference across all three E3 spline basis coefficients",
+    "unit_inclusion": "at least 30 events in each of the four endpoint cells and at least 400 E3-eligible calendar days",
+    "pooling": "country-state estimates pooled by DL and REML with Hartung-Knapp; report k, I2, concordance, failures, and code/coverage counts"
+  },
+  "supportive_models": [
+    "N20-only versus K80 within ED-origin records, labeled a stricter acute-presentation proxy without onset/mechanism claims",
+    "Broad N20-N23 versus K80 within ED-origin records",
+    "Broad N20-N23 versus K80 within outpatient-consultation-origin records"
+  ],
+  "single_additional_sensitivity": "Repeat the broad four-endpoint ED-origin versus outpatient-consultation-origin model after restricting to records with DIAS_ESTA 1-30 days; label as a recorded 1-30-day stay sensitivity, not a validated hospital or admission classification.",
+  "reconciliation": "For each source/event-date window and the combined 2015-2022 event-date cohort, compare all-origin state-day K80, K81, N20, N21, N22, and N23 counts exactly with data/mx_complete_source_state_day_2015_2022.csv. Preserve and audit every difference; do not tune source selection to force agreement.",
+  "prohibited_interpretations": [
+    "PROCED=1 or any non-ED-origin code is not elective",
+    "TIPSERV is not urgency/elective",
+    "N20-only is not proof of acute onset",
+    "The origin contrast is not proof of a disease mechanism"
+  ]
+}
